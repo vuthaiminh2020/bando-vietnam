@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     async function loadHotspotData() {
         try {
-            const response = await fetch('https://drive.google.com/file/d/1dVpowkUAnDvhaE1Js6E8rA11eFHxRORb/view?usp=sharing'); // Fetch the JSON data
+            const response = await fetch('data.json'); // Fetch the JSON data
             if (!response.ok) { // Check if the network response was successful
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

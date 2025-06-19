@@ -46,18 +46,20 @@
         /* Responsive adjustments for smaller screens */
         @media (max-width: 768px) {
             .tooltip, .detailed-tooltip {
-                min-width: 120px;
-                max-width: 200px;
+                min-width: 90%; /* Take more width on small screens */
+                max-width: 90%;
                 padding: 6px 10px;
                 font-size: 0.8rem;
-                /* Adjust positioning for mobile if they are side-by-side */
+                /* Stack them vertically on mobile */
                 left: 50% !important;
                 transform: translateX(-50%) !important;
+                margin: 0 !important; /* Remove fixed margins */
             }
-            /* Stack detailed tooltip below main tooltip on mobile */
+            .tooltip {
+                 top: 25% !important; /* Move first tooltip up */
+            }
             .detailed-tooltip {
-                top: calc(50% + 150px) !important; /* Below the first tooltip */
-                margin-left: 0 !important;
+                top: calc(25% + 150px) !important; /* Position below the first tooltip */
             }
         }
 
@@ -66,10 +68,10 @@
             visibility: hidden; /* Hidden by default */
             opacity: 0; /* Fully transparent by default */
             position: fixed; /* Fixed position relative to viewport */
-            /* Position to the left of the screen center */
-            left: calc(50% - 170px); /* 50% minus half of its width (approx 150px) + some offset */
+            /* Position to the left of the screen center with a gap */
             top: 50%; 
-            transform: translate(0, -50%); /* Vertically center it */
+            left: 50%; 
+            transform: translate(calc(-100% - 10px), -50%); /* Move left by its full width + gap, then center vertically */
             white-space: normal; /* Allow text to wrap */
             min-width: 180px; 
             max-width: 280px;
@@ -81,18 +83,12 @@
             transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Smooth fade in/out */
             z-index: 1000; /* Ensures tooltip is on top */
             cursor: pointer; /* Indicates it's clickable */
+            pointer-events: auto; /* Allow clicks even when not explicitly active */
         }
 
-        /* Tooltip arrow for the first tooltip, pointing to the center */
+        /* Removed .tooltip::after as it's no longer pointing to a specific map point */
         .tooltip::after {
-            content: "";
-            position: absolute;
-            top: 50%; /* Center vertically */
-            left: 100%; /* To the right of the tooltip */
-            margin-top: -8px; /* Half of border-width to center it vertically */
-            border-width: 8px; /* Size of the arrow */
-            border-style: solid;
-            border-color: transparent transparent transparent #333; /* Arrow pointing right */
+            content: none;
         }
 
         /* --- Detailed Tooltip (Second - Detailed Info) Styling --- */
@@ -100,10 +96,10 @@
             visibility: hidden;
             opacity: 0;
             position: fixed; /* Fixed position relative to viewport */
-            /* Position to the right of the screen center */
-            left: calc(50% + 10px); /* 50% plus half of first tooltip's width + small gap */
+            /* Position to the right of the screen center with a gap */
+            left: 50%; 
             top: 50%;
-            transform: translate(0, -50%); /* Vertically center it */
+            transform: translate(10px, -50%); /* Move right by gap, then center vertically */
             white-space: normal;
             min-width: 250px; /* Larger min-width for detailed content */
             max-width: 400px;
@@ -145,33 +141,43 @@
 
         /* Hotspot icon styling (dot) */
         .hotspot-group .icon {
-            font-size: 2rem; /* 2xl equivalent */
+            font-size: 1rem; /* Adjusted to 16px (1rem) */
             line-height: 1;
             transform: translateY(-5%); /* Fine-tune vertical position */
-            color: black; /* Black color */
+            color: black; /* Default black color */
             font-weight: 800; /* Extra bold */
             text-shadow: 0 0 5px rgba(255,255,255,0.7); /* Subtle white glow for visibility on dark maps */
-        }
-        /* Adjust hotspot group to contain only the icon without background/border/shadow */
-        .hotspot-group {
-            width: 40px; /* Fixed size */
-            height: 40px; /* Fixed size */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: transform 0.2s ease-in-out;
-        }
-        .hotspot-group:hover {
-            transform: scale(1.25); /* Larger hover effect */
+            transition: color 0.3s ease-in-out; /* Smooth color transition for hover */
         }
 
+        /* Hotspot hover effect: change color to red and blink */
+        .hotspot-group:hover .icon {
+            color: red; /* Change color to red on hover */
+            animation: blinkHotspot 0.7s infinite alternate; /* Apply blinking animation */
+        }
+
+        /* Keyframes for the blinking effect */
+        @keyframes blinkHotspot {
+            from { opacity: 1; }
+            to { opacity: 0.2; } /* Fade out slightly to create a blinking effect */
+        }
     </style>
 </head>
 <body class="p-4 bg-gray-100 flex flex-col items-center justify-center min-h-screen">
 
     <div class="container-wrapper">
-        <!-- Controls section: Zoom button and coordinate display -->
+     
+
+        <!-- Main image container -->
+        <div class="image-container">
+            <!-- The main map image -->
+            <img id="mainMap" src="map.jpg" 
+                 alt="Bản đồ tương tác với các điểm thông tin" class="rounded-xl">
+
+            <!-- Hotspots will be dynamically added here by JavaScript -->
+        </div>
+		
+		   <!-- Controls section: Zoom button and coordinate display -->
         <div class="flex flex-col md:flex-row justify-between items-center w-full mb-4 space-y-2 md:space-y-0 md:space-x-4">
             <button id="zoomButton" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md 
                                          hover:bg-blue-700 transition-colors duration-200 ease-in-out w-full md:w-auto">
@@ -182,15 +188,6 @@
                 <!-- Coordinate display area -->
                 Di chuyển chuột trên bản đồ để lấy tọa độ
             </div>
-        </div>
-
-        <!-- Main image container -->
-        <div class="image-container">
-            <!-- The main map image -->
-            <img id="mainMap" src="map.jpg" 
-                 alt="Bản đồ tương tác với các điểm thông tin" class="rounded-xl">
-
-            <!-- Hotspots will be dynamically added here by JavaScript -->
         </div>
     </div>
 

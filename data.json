@@ -1,38 +1,605 @@
 [
     {
-        "id": "hotspot-hcmc",
-        "x_percent": 25,
-        "y_percent": 60,
-        "location": "Thành phố Hồ Chí Minh",
-        "coordinates": "10.8231° N, 106.6297° E",
-        "description": "Trung tâm kinh tế, văn hóa và du lịch sầm uất nhất Việt Nam.",
-        "detailed_description": "<p><b>Thành phố Hồ Chí Minh</b> (còn gọi là Sài Gòn) là đô thị lớn nhất Việt Nam, là trung tâm kinh tế, văn hóa, giáo dục và khoa học kỹ thuật quan trọng. Thành phố nổi tiếng với kiến trúc Pháp cổ kính, cuộc sống về đêm sôi động và ẩm thực đường phố phong phú.</p><p>Các điểm tham quan nổi bật bao gồm Dinh Độc Lập, Nhà thờ Đức Bà, Bưu điện Trung tâm Sài Gòn và Chợ Bến Thành.</p>"
-    },
-    {
         "id": "hotspot-hanoi",
-        "x_percent": 50,
-        "y_percent": 20,
+        "x_percent": 33.88,
+        "y_percent": 17.76,
         "location": "Thủ đô Hà Nội",
         "coordinates": "21.0278° N, 105.8342° E",
-        "description": "Thủ đô ngàn năm văn hiến của Việt Nam.",
-        "detailed_description": "<p><b>Hà Nội</b> là thủ đô của Việt Nam, nổi tiếng với lịch sử lâu đời, kiến trúc cổ kính và nền văn hóa đậm đà bản sắc. Thành phố có nhiều hồ lớn nhỏ, cây xanh rợp bóng và các di tích lịch sử quan trọng.</p><p>Những điểm đến không thể bỏ qua là Hồ Gươm, Phố Cổ, Lăng Chủ tịch Hồ Chí Minh và Văn Miếu - Quốc Tử Giám.</p>"
+        "description": "Thủ đô ngàn năm văn hiến, trung tâm chính trị và văn hóa của Việt Nam.",
+        "detailed_description": "<p><b>Hà Nội</b> là thủ đô của Việt Nam, nổi tiếng với lịch sử lâu đời, kiến trúc cổ kính và nền văn hóa đậm đà bản sắc. Thành phố có diện tích khoảng 3.359,84 km² và dân số hơn 8,5 triệu người (2022).</p><p>Về mặt hành chính, Hà Nội có 30 đơn vị hành chính cấp huyện (12 quận, 17 huyện, 1 thị xã) và 579 đơn vị hành chính cấp xã (383 xã, 175 phường, 21 thị trấn). Các đơn vị cấp huyện bao gồm:</p><ul><li><b>Quận:</b> Ba Đình, Bắc Từ Liêm, Cầu Giấy, Đống Đa, Hà Đông, Hai Bà Trưng, Hoàn Kiếm, Hoàng Mai, Long Biên, Nam Từ Liêm, Tây Hồ, Thanh Xuân.</li><li><b>Huyện:</b> Ba Vì, Chương Mỹ, Đan Phượng, Đông Anh, Gia Lâm, Hoài Đức, Mê Linh, Mỹ Đức, Phú Xuyên, Phúc Thọ, Quốc Oai, Sóc Sơn, Thạch Thất, Thanh Oai, Thanh Trì, Thường Tín, Ứng Hòa.</li><li><b>Thị xã:</b> Sơn Tây.</li></ul><p>Các điểm tham quan nổi bật: Hồ Gươm, Phố Cổ, Lăng Chủ tịch Hồ Chí Minh, Văn Miếu - Quốc Tử Giám.</p>"
+    },
+    {
+        "id": "hotspot-hcmc",
+        "x_percent": 25.00,
+        "y_percent": 60.00,
+        "location": "Thành phố Hồ Chí Minh",
+        "coordinates": "10.8231° N, 106.6297° E",
+        "description": "Đô thị lớn nhất Việt Nam, trung tâm kinh tế, văn hóa, giáo dục và khoa học kỹ thuật quan trọng.",
+        "detailed_description": "<p><b>Thành phố Hồ Chí Minh</b> (còn gọi là Sài Gòn) là đô thị lớn nhất Việt Nam, là trung tâm kinh tế, văn hóa, giáo dục và khoa học kỹ thuật quan trọng. Thành phố có diện tích 2.095,4 km² và dân số hơn 9,4 triệu người (2022).<br>Nổi tiếng với kiến trúc Pháp cổ kính, cuộc sống về đêm sôi động và ẩm thực đường phố phong phú. Các điểm tham quan nổi bật: Dinh Độc Lập, Nhà thờ Đức Bà, Chợ Bến Thành.</p>"
     },
     {
         "id": "hotspot-danang",
-        "x_percent": 75,
-        "y_percent": 45,
+        "x_percent": 75.00,
+        "y_percent": 45.00,
         "location": "Đà Nẵng",
         "coordinates": "16.0545° N, 108.2022° E",
-        "description": "Thành phố biển xinh đẹp và hiện đại ở miền Trung.",
-        "detailed_description": "<p><b>Đà Nẵng</b> được mệnh danh là 'thành phố đáng sống' với những bãi biển dài cát trắng như Mỹ Khê, cơ sở hạ tầng hiện đại và các cây cầu độc đáo như Cầu Rồng, Cầu Sông Hàn.</p><p>Từ Đà Nẵng, du khách dễ dàng di chuyển đến các di sản thế giới như Phố cổ Hội An và Thánh địa Mỹ Sơn.</p>"
+        "description": "Thành phố biển xinh đẹp, hiện đại và là trung tâm du lịch miền Trung.",
+        "detailed_description": "<p><b>Đà Nẵng</b> được mệnh danh là 'thành phố đáng sống' với bãi biển Mỹ Khê nổi tiếng, cầu Rồng độc đáo và là cửa ngõ đến các di sản thế giới. Diện tích: 1.284,73 km², dân số: 1,22 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 6 quận (Hải Châu, Thanh Khê, Sơn Trà, Ngũ Hành Sơn, Liên Chiểu, Cẩm Lệ) và 2 huyện (Hòa Vang, Hoàng Sa).<br>Ngoài ra còn có sông Hàn, Bà Nà Hills.</p>"
+    },
+    {
+        "id": "hotspot-haiphong",
+        "x_percent": 55.00,
+        "y_percent": 25.00,
+        "location": "Hải Phòng",
+        "coordinates": "20.8490° N, 106.6881° E",
+        "description": "Thành phố cảng quan trọng của miền Bắc Việt Nam.",
+        "detailed_description": "<p><b>Hải Phòng</b> là thành phố cảng lớn, trung tâm kinh tế, khoa học, kỹ thuật, văn hóa, y tế của Vùng duyên hải Bắc Bộ. Diện tích: 1.526,52 km², dân số: 2,08 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 7 quận (Hồng Bàng, Lê Chân, Ngô Quyền, Kiến An, Hải An, Đồ Sơn, Dương Kinh) và 8 huyện (An Dương, An Lão, Bạch Long Vĩ, Cát Hải, Kiến Thụy, Thủy Nguyên, Tiên Lãng, Vĩnh Bảo).<br>Nổi tiếng với Đồ Sơn, Cát Bà và ẩm thực đa dạng.</p>"
+    },
+    {
+        "id": "hotspot-quangninh",
+        "x_percent": 44.97,
+        "y_percent": 17.11,
+        "location": "Quảng Ninh",
+        "coordinates": "21.0278° N, 107.0396° E",
+        "description": "Tỉnh có Vịnh Hạ Long - di sản thiên nhiên thế giới.",
+        "detailed_description": "<p><b>Quảng Ninh</b> là tỉnh vùng Đông Bắc Bộ, nổi tiếng với Vịnh Hạ Long, di sản thiên nhiên thế giới được UNESCO công nhận. Diện tích: 6.207,93 km², dân số: 1,36 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 4 thành phố (Hạ Long, Uông Bí, Móng Cái, Cẩm Phả), 2 thị xã (Quảng Yên, Đông Triều) và 7 huyện (Ba Chẽ, Bình Liêu, Cô Tô, Đầm Hà, Hải Hà, Tiên Yên, Vân Đồn).<br>Ngoài Hạ Long, còn có Yên Tử, đảo Cô Tô.</p>"
+    },
+    {
+        "id": "hotspot-laocai",
+        "x_percent": 17.8,
+        "y_percent": 7.22,
+        "location": "Lào Cai",
+        "coordinates": "22.4972° N, 103.9781° E",
+        "description": "Tỉnh miền núi phía Bắc, có Sa Pa nổi tiếng.",
+        "detailed_description": "<p><b>Lào Cai</b> nằm ở vùng Tây Bắc Bộ, có đỉnh Fansipan - 'Nóc nhà Đông Dương' và thị trấn Sa Pa với cảnh quan thiên nhiên hùng vĩ và văn hóa bản địa độc đáo. Diện tích: 6.364,25 km², dân số: 770,59 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Lào Cai), 1 thị xã (Sa Pa) và 7 huyện (Bát Xát, Bảo Thắng, Bảo Yên, Mường Khương, Si Ma Cai, Văn Bàn, Bắc Hà).</p>"
+    },
+    {
+        "id": "hotspot-dienbien",
+        "x_percent": 10.05,
+        "y_percent": 14.07,
+        "location": "Điện Biên",
+        "coordinates": "21.3850° N, 103.0238° E",
+        "description": "Tỉnh Tây Bắc, nổi tiếng với chiến thắng Điện Biên Phủ lịch sử.",
+        "detailed_description": "<p><b>Điện Biên</b> là một tỉnh miền núi thuộc vùng Tây Bắc Bộ Việt Nam, nổi tiếng với Chiến dịch Điện Biên Phủ lịch sử. Diện tích: 9.539,93 km², dân số: 633,98 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Điện Biên Phủ), 1 thị xã (Mường Lay) và 8 huyện (Điện Biên, Điện Biên Đông, Mường Ảng, Mường Chà, Mường Nhé, Nậm Pồ, Tủa Chùa, Tuần Giáo).</p>"
+    },
+    {
+        "id": "hotspot-langson",
+        "x_percent": 41.72,
+        "y_percent": 11.15,
+        "location": "Lạng Sơn",
+        "coordinates": "21.8415° N, 106.7454° E",
+        "description": "Tỉnh biên giới phía Bắc, có nhiều cửa khẩu quan trọng.",
+        "detailed_description": "<p><b>Lạng Sơn</b> là tỉnh miền núi biên giới thuộc vùng Đông Bắc Bộ, có vị trí chiến lược về kinh tế và quốc phòng, với nhiều cửa khẩu quốc tế. Diện tích: 8.310,18 km², dân số: 802,09 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Lạng Sơn) và 10 huyện (Bắc Sơn, Bình Gia, Cao Lộc, Chi Lăng, Đình Lập, Hữu Lũng, Lộc Bình, Tràng Định, Văn Lãng, Văn Quan).</p>"
+    },
+    {
+        "id": "hotspot-namdinh",
+        "x_percent": 36.75,
+        "y_percent": 20.51,
+        "location": "Nam Định",
+        "coordinates": "20.4357° N, 106.1772° E",
+        "description": "Tỉnh đồng bằng sông Hồng, nổi tiếng với nghề dệt và văn hóa lịch sử.",
+        "detailed_description": "<p><b>Nam Định</b> là tỉnh thuộc vùng Đồng bằng sông Hồng, nổi tiếng với truyền thống hiếu học, nghề dệt và các di tích lịch sử, văn hóa. Diện tích: 1.668,83 km², dân số: 1,87 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Nam Định) và 9 huyện (Giao Thủy, Hải Hậu, Mỹ Lộc, Nam Trực, Nghĩa Hưng, Trực Ninh, Vụ Bản, Xuân Trường, Ý Yên).</p>"
+    },
+    {
+        "id": "hotspot-thanhhoa",
+        "x_percent": 60.00,
+        "y_percent": 30.00,
+        "location": "Thanh Hóa",
+        "coordinates": "19.8055° N, 105.7769° E",
+        "description": "Tỉnh lớn nhất khu vực Bắc Trung Bộ, có nhiều danh lam thắng cảnh.",
+        "detailed_description": "<p><b>Thanh Hóa</b> là tỉnh có diện tích lớn nhất khu vực Bắc Trung Bộ, là cái nôi của nhiều nền văn hóa cổ. Diện tích: 11.114,71 km², dân số: 3,72 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Thanh Hóa, Sầm Sơn), 2 thị xã (Bỉm Sơn, Nghi Sơn) và 23 huyện (Bá Thước, Cẩm Thủy, Đông Sơn, Hà Trung, Hậu Lộc, Hoằng Hóa, Lang Chánh, Mường Lát, Nga Sơn, Ngọc Lặc, Nông Cống, Quan Hóa, Quan Sơn, Quảng Xương, Thạch Thành, Thiệu Hóa, Thọ Xuân, Thường Xuân, Triệu Sơn, Vĩnh Lộc, Yên Định, Như Thanh, Như Xuân).</p>"
+    },
+    {
+        "id": "hotspot-nghean",
+        "x_percent": 60.00,
+        "y_percent": 35.00,
+        "location": "Nghệ An",
+        "coordinates": "18.9950° N, 105.6596° E",
+        "description": "Tỉnh lớn nhất cả nước về diện tích, quê hương Chủ tịch Hồ Chí Minh.",
+        "detailed_description": "<p><b>Nghệ An</b> là tỉnh có diện tích lớn nhất Việt Nam, thuộc vùng Bắc Trung Bộ. Đây là quê hương của Chủ tịch Hồ Chí Minh. Diện tích: 16.486,49 km², dân số: 3,41 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Vinh), 3 thị xã (Cửa Lò, Thái Hòa, Hoàng Mai) và 17 huyện (Anh Sơn, Con Cuông, Diễn Châu, Đô Lương, Hưng Nguyên, Kỳ Sơn, Nam Đàn, Nghi Lộc, Nghĩa Đàn, Quế Phong, Quỳ Châu, Quỳ Hợp, Quỳnh Lưu, Tân Kỳ, Thanh Chương, Tương Dương, Yên Thành).</p>"
+    },
+    {
+        "id": "hotspot-hue",
+        "x_percent": 70.00,
+        "y_percent": 50.00,
+        "location": "Thừa Thiên Huế",
+        "coordinates": "16.4637° N, 107.5858° E",
+        "description": "Cố đô Huế, trung tâm văn hóa lịch sử với nhiều di sản UNESCO.",
+        "detailed_description": "<p><b>Thừa Thiên Huế</b> là cố đô của Việt Nam, nổi tiếng với quần thể di tích Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới. Diện tích: 4.947,11 km², dân số: 1,16 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Huế), 2 thị xã (Hương Thủy, Hương Trà) và 6 huyện (A Lưới, Nam Đông, Phong Điền, Phú Lộc, Phú Vang, Quảng Điền).</p>"
+    },
+    {
+        "id": "hotspot-quangnam",
+        "x_percent": 78.00,
+        "y_percent": 52.00,
+        "location": "Quảng Nam",
+        "coordinates": "15.5880° N, 108.1500° E",
+        "description": "Tỉnh miền Trung có Hội An và Mỹ Sơn - Di sản thế giới.",
+        "detailed_description": "<p><b>Quảng Nam</b> thuộc vùng Duyên hải Nam Trung Bộ, nổi tiếng với hai di sản văn hóa thế giới được UNESCO công nhận: Phố cổ Hội An và Thánh địa Mỹ Sơn. Diện tích: 10.574,86 km², dân số: 1,51 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Tam Kỳ, Hội An), 1 thị xã (Điện Bàn) và 15 huyện (Bắc Trà My, Duy Xuyên, Đại Lộc, Đông Giang, Hiệp Đức, Nam Giang, Nam Trà My, Nông Sơn, Núi Thành, Phú Ninh, Phước Sơn, Quế Sơn, Tây Giang, Thăng Bình, Tiên Phước).</p>"
+    },
+    {
+        "id": "hotspot-khanhhoa",
+        "x_percent": 80.00,
+        "y_percent": 58.00,
+        "location": "Khánh Hòa",
+        "coordinates": "12.2570° N, 109.1969° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, có Vịnh Nha Trang xinh đẹp.",
+        "detailed_description": "<p><b>Khánh Hòa</b> là tỉnh ven biển thuộc vùng Duyên hải Nam Trung Bộ, nổi tiếng với thành phố Nha Trang - một trong những vịnh biển đẹp nhất thế giới. Diện tích: 5.199,62 km², dân số: 1,25 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Nha Trang, Cam Ranh), 1 thị xã (Ninh Hòa) và 6 huyện (Diên Khánh, Khánh Sơn, Khánh Vĩnh, Trường Sa, Vạn Ninh, Cam Lâm).</p>"
+    },
+    {
+        "id": "hotspot-binhthuan",
+        "x_percent": 85.00,
+        "y_percent": 60.00,
+        "location": "Bình Thuận",
+        "coordinates": "10.9329° N, 107.8209° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, nổi tiếng với Phan Thiết và Mũi Né.",
+        "detailed_description": "<p><b>Bình Thuận</b> là tỉnh ven biển thuộc vùng Duyên hải Nam Trung Bộ, nổi tiếng với các điểm du lịch biển như Phan Thiết, Mũi Né, Bàu Trắng. Khí hậu khô nóng, nhiều nắng và gió. Diện tích: 7.942,60 km², dân số: 1,25 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Phan Thiết), 1 thị xã (La Gi) và 8 huyện (Bắc Bình, Hàm Thuận Bắc, Hàm Thuận Nam, Hàm Tân, Đức Linh, Tánh Linh, Tuy Phong, Phú Quý).</p>"
+    },
+    {
+        "id": "hotspot-binhduong",
+        "x_percent": 30.00,
+        "y_percent": 65.00,
+        "location": "Bình Dương",
+        "coordinates": "11.0963° N, 106.6781° E",
+        "description": "Tỉnh công nghiệp phát triển mạnh mẽ ở Đông Nam Bộ.",
+        "detailed_description": "<p><b>Bình Dương</b> là một tỉnh công nghiệp trọng điểm thuộc vùng Đông Nam Bộ, giáp ranh với TP.HCM. Tỉnh có nhiều khu công nghiệp lớn và tốc độ đô thị hóa nhanh chóng. Diện tích: 2.694.64 km², dân số: 2,76 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 3 thành phố (Thủ Dầu Một, Dĩ An, Thuận An), 2 thị xã (Bến Cát, Tân Uyên) và 4 huyện (Bàu Bàng, Bắc Tân Uyên, Dầu Tiếng, Phú Giáo).</p>"
+    },
+    {
+        "id": "hotspot-dongnai",
+        "x_percent": 35.00,
+        "y_percent": 68.00,
+        "location": "Đồng Nai",
+        "coordinates": "10.9575° N, 107.0232° E",
+        "description": "Tỉnh phát triển công nghiệp hàng đầu khu vực Đông Nam Bộ.",
+        "detailed_description": "<p><b>Đồng Nai</b> là tỉnh thuộc vùng Đông Nam Bộ, có nền kinh tế công nghiệp phát triển mạnh, là cửa ngõ giao thương quan trọng. Diện tích: 5.863,62 km², dân số: 3,25 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Biên Hòa), 2 thị xã (Long Khánh, Trảng Bom) và 8 huyện (Cẩm Mỹ, Định Quán, Long Thành, Nhơn Trạch, Tân Phú, Thống Nhất, Vĩnh Cửu, Xuân Lộc).</p>"
+    },
+    {
+        "id": "hotspot-longan",
+        "x_percent": 18.00,
+        "y_percent": 68.00,
+        "location": "Long An",
+        "coordinates": "10.6094° N, 106.2798° E",
+        "description": "Tỉnh cửa ngõ miền Tây, giáp ranh TP.HCM và Campuchia.",
+        "detailed_description": "<p><b>Long An</b> là tỉnh thuộc vùng Đồng bằng sông Cửu Long, có vị trí địa lý thuận lợi là cửa ngõ nối liền TP.HCM với các tỉnh miền Tây và giáp biên giới Campuchia. Tỉnh có nền kinh tế đang phát triển mạnh mẽ. Diện tích: 4.494,78 km², dân số: 1,73 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Tân An), 1 thị xã (Kiến Tường) và 13 huyện (Bến Lức, Cần Đước, Cần Giuộc, Châu Thành, Đức Huệ, Đức Hòa, Mộc Hóa, Tân Hưng, Tân Thạnh, Tân Trụ, Thạnh Hóa, Thủ Thừa, Vĩnh Hưng).</p>"
+    },
+    {
+        "id": "hotspot-kiengiang",
+        "x_percent": 10.00,
+        "y_percent": 80.00,
+        "location": "Kiên Giang",
+        "coordinates": "10.0528° N, 104.9926° E",
+        "description": "Tỉnh ven biển miền Tây Nam Bộ, có đảo Phú Quốc.",
+        "detailed_description": "<p><b>Kiên Giang</b> nằm ở Đồng bằng sông Cửu Long, có đường bờ biển dài và nhiều đảo, trong đó nổi bật là đảo Phú Quốc - 'đảo ngọc' nổi tiếng thế giới. Diện tích: 6.352,92 km², dân số: 1,75 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Rạch Giá, Phú Quốc), 1 thị xã (Hà Tiên) và 12 huyện (An Biên, An Minh, Châu Thành, Giang Thành, Giồng Riềng, Gò Quao, Hòn Đất, Kiên Hải, Tân Hiệp, U Minh Thượng, Vĩnh Thuận).</p>"
+    },
+    {
+        "id": "hotspot-cantho",
+        "x_percent": 20.00,
+        "y_percent": 70.00,
+        "location": "Cần Thơ",
+        "coordinates": "10.0452° N, 105.7469° E",
+        "description": "Thành phố trực thuộc Trung ương, trung tâm của Đồng bằng sông Cửu Long.",
+        "detailed_description": "<p><b>Cần Thơ</b> là thành phố trực thuộc Trung ương, trung tâm kinh tế, văn hóa, khoa học và y tế của vùng Đồng bằng sông Cửu Long. Diện tích: 1.440,40 km², dân số: 1,25 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 5 quận (Ninh Kiều, Bình Thủy, Cái Răng, Ô Môn, Thốt Nốt) và 4 huyện (Cờ Đỏ, Phong Điền, Thới Lai, Vĩnh Thạnh).<br>Nổi tiếng với chợ nổi Cái Răng, bến Ninh Kiều.</p>"
+    },
+    {
+        "id": "hotspot-angiang",
+        "x_percent": 15.00,
+        "y_percent": 75.00,
+        "location": "An Giang",
+        "coordinates": "10.5050° N, 105.1500° E",
+        "description": "Tỉnh đầu nguồn sông Cửu Long, đa dạng văn hóa.",
+        "detailed_description": "<p><b>An Giang</b> là tỉnh thuộc vùng Đồng bằng sông Cửu Long, nơi đầu nguồn sông Hậu chảy vào Việt Nam, có sự đa dạng về văn hóa của các dân tộc Kinh, Khmer, Chăm, Hoa. Diện tích: 3.536,82 km², dân số: 1,90 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Long Xuyên, Châu Đốc), 2 thị xã (Tịnh Biên, Tân Châu) và 7 huyện (An Phú, Châu Phú, Châu Thành, Chợ Mới, Phú Tân, Thoại Sơn, Tri Tôn).</p>"
+    },
+    {
+        "id": "hotspot-camau",
+        "x_percent": 10.00,
+        "y_percent": 90.00,
+        "location": "Cà Mau",
+        "coordinates": "9.1764° N, 105.1481° E",
+        "description": "Tỉnh cực Nam của Việt Nam, nổi tiếng với rừng đước và hệ sinh thái đa dạng.",
+        "detailed_description": "<p><b>Cà Mau</b> là tỉnh cực Nam của Việt Nam, thuộc vùng Đồng bằng sông Cửu Long, nổi tiếng với Mũi Cà Mau, rừng U Minh Hạ và hệ sinh thái rừng ngập mặn đa dạng. Diện tích: 5.274,5 km², dân số: 1,20 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Cà Mau) và 8 huyện (Cái Nước, Đầm Dơi, Năm Căn, Ngọc Hiển, Phú Tân, Thới Bình, Trần Văn Thời, U Minh).</p>"
+    },
+    {
+        "id": "hotspot-kontum",
+        "x_percent": 70.00,
+        "y_percent": 40.00,
+        "location": "Kon Tum",
+        "coordinates": "14.3524° N, 107.9796° E",
+        "description": "Tỉnh Tây Nguyên, vùng đất của núi rừng và văn hóa bản địa.",
+        "detailed_description": "<p><b>Kon Tum</b> là tỉnh cực Bắc Tây Nguyên, có địa hình chủ yếu là núi cao và cao nguyên. Tỉnh này nổi tiếng với các bản làng của người dân tộc thiểu số và văn hóa cồng chiêng. Diện tích: 9.677,3 km², dân số: 579,91 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Kon Tum) và 9 huyện (Đắk Glei, Đắk Hà, Đắk Tô, Ia H'Drai, Kon Plông, Kon Rẫy, Ngọc Hồi, Sa Thầy, Tu Mơ Rông).</p>"
+    },
+    {
+        "id": "hotspot-gialai",
+        "x_percent": 75.00,
+        "y_percent": 40.00,
+        "location": "Gia Lai",
+        "coordinates": "13.9781° N, 108.2000° E",
+        "description": "Tỉnh Tây Nguyên, có Biển Hồ và núi lửa Chư Đăng Ya.",
+        "detailed_description": "<p><b>Gia Lai</b> là tỉnh lớn thứ hai Tây Nguyên, có Biển Hồ (Hồ T'Nưng) và núi lửa Chư Đăng Ya nổi tiếng. Diện tích: 15.510,13 km², dân số: 1,59 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Pleiku), 2 thị xã (An Khê, Ayun Pa) và 14 huyện (Chư Păh, Chư Prông, Chư Sê, Đăk Đoa, Đăk Pơ, Đức Cơ, Ia Grai, Ia Pa, KBang, Kông Chro, Krông Pa, Mang Yang, Phú Thiện, Chư Pưh).</p>"
+    },
+    {
+        "id": "hotspot-lamdong",
+        "x_percent": 35.00,
+        "y_percent": 75.00,
+        "location": "Lâm Đồng",
+        "coordinates": "11.9405° N, 108.4357° E",
+        "description": "Tỉnh Tây Nguyên với thành phố Đà Lạt mộng mơ.",
+        "detailed_description": "<p><b>Lâm Đồng</b> thuộc vùng Tây Nguyên, nổi bật với thành phố Đà Lạt - điểm đến du lịch nổi tiếng với khí hậu mát mẻ quanh năm, kiến trúc Pháp cổ và cảnh quan thiên nhiên thơ mộng. Diện tích: 9.781,20 km², dân số: 1,33 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Đà Lạt, Bảo Lộc) và 10 huyện (Bảo Lâm, Cát Tiên, Đạ Huoai, Đạ Tẻh, Đam Rông, Di Linh, Đơn Dương, Đức Trọng, Lạc Dương, Lâm Hà).</p>"
+    },
+	 {
+        "id": "hotspot-baria-vungtau",
+        "x_percent": 38.00,
+        "y_percent": 70.00,
+        "location": "Bà Rịa – Vũng Tàu",
+        "coordinates": "10.4357° N, 107.1932° E",
+        "description": "Tỉnh ven biển Đông Nam Bộ, nổi tiếng với du lịch biển và dầu khí.",
+        "detailed_description": "<p><b>Bà Rịa – Vũng Tàu</b> là tỉnh ven biển thuộc vùng Đông Nam Bộ, nổi tiếng với các bãi biển đẹp, ngành công nghiệp dầu khí và du lịch phát triển. Diện tích: 1.982,56 km², dân số: 1,17 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Bà Rịa, Vũng Tàu), 1 thị xã (Phú Mỹ) và 5 huyện (Châu Đức, Côn Đảo, Đất Đỏ, Long Điền, Xuyên Mộc).</p>"
+    },
+    {
+        "id": "hotspot-baclieu",
+        "x_percent": 15.00,
+        "y_percent": 88.00,
+        "location": "Bạc Liêu",
+        "coordinates": "9.2963° N, 105.7275° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, nổi tiếng với công tử Bạc Liêu và nghề muối.",
+        "detailed_description": "<p><b>Bạc Liêu</b> là tỉnh thuộc Đồng bằng sông Cửu Long, được biết đến với câu chuyện công tử Bạc Liêu và nghề làm muối truyền thống. Diện tích: 2.667,9 km², dân số: 925,2 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Bạc Liêu) và 6 huyện (Đông Hải, Giá Rai, Hòa Bình, Hồng Dân, Phước Long, Vĩnh Lợi).</p>"
+    },
+    {
+        "id": "hotspot-backan",
+        "x_percent": 33.72,
+        "y_percent": 9.6,
+        "location": "Bắc Kạn",
+        "coordinates": "22.0620° N, 105.8450° E",
+        "description": "Tỉnh miền núi phía Bắc, có Hồ Ba Bể nổi tiếng.",
+        "detailed_description": "<p><b>Bắc Kạn</b> là tỉnh miền núi thuộc vùng Đông Bắc Bộ Việt Nam, nổi tiếng với Hồ Ba Bể - một trong những hồ nước ngọt tự nhiên lớn nhất Việt Nam. Diện tích: 4.859,96 km², dân số: 324,35 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Bắc Kạn) và 7 huyện (Ba Bể, Bạch Thông, Chợ Đồn, Chợ Mới, Na Rì, Ngân Sơn, Pác Nặm).</p>"
+    },
+    {
+        "id": "hotspot-bacgiang",
+        "x_percent": 55.00,
+        "y_percent": 22.00,
+        "location": "Bắc Giang",
+        "coordinates": "21.2858° N, 106.1888° E",
+        "description": "Tỉnh Đông Bắc Bộ, vùng đất của vải thiều Lục Ngạn.",
+        "detailed_description": "<p><b>Bắc Giang</b> là tỉnh thuộc vùng Đông Bắc Bộ Việt Nam, nổi tiếng với đặc sản vải thiều Lục Ngạn và là tỉnh có tiềm năng phát triển công nghiệp. Diện tích: 3.895,89 km², dân số: 1,89 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Bắc Giang), 4 thị xã (Việt Yên, Hiệp Hòa, Yên Dũng, Lạng Giang) và 5 huyện (Sơn Động, Lục Nam, Lục Ngạn, Tân Yên, Yên Thế).</p>"
+    },
+    {
+        "id": "hotspot-bacninh",
+        "x_percent": 37.38,
+        "y_percent": 14.97,
+        "location": "Bắc Ninh",
+        "coordinates": "21.1890° N, 106.0792° E",
+        "description": "Tỉnh nhỏ nhất Việt Nam, cái nôi của văn hóa Kinh Bắc.",
+        "detailed_description": "<p><b>Bắc Ninh</b> là tỉnh nhỏ nhất Việt Nam, nằm ở Đồng bằng sông Hồng, nổi tiếng là cái nôi của văn hóa Kinh Bắc với làn điệu dân ca Quan họ. Diện tích: 822,71 km², dân số: 1,48 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Bắc Ninh, Từ Sơn), 4 thị xã (Yên Phong, Quế Võ, Thuận Thành, Tiên Du) và 2 huyện (Lương Tài, Gia Bình).</p>"
+    },
+    {
+        "id": "hotspot-bentre",
+        "x_percent": 20.00,
+        "y_percent": 85.00,
+        "location": "Bến Tre",
+        "coordinates": "10.2333° N, 106.3833° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, quê hương của dừa và phong trào Đồng Khởi.",
+        "detailed_description": "<p><b>Bến Tre</b> là tỉnh thuộc Đồng bằng sông Cửu Long, nổi tiếng với cây dừa và là nơi khởi nguồn của phong trào Đồng Khởi lịch sử. Diện tích: 2.379,7 km², dân số: 1,29 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Bến Tre) và 8 huyện (Ba Tri, Bình Đại, Châu Thành, Chợ Lách, Giồng Trôm, Mỏ Cày Bắc, Mỏ Cày Nam, Thạnh Phú).</p>"
+    },
+    {
+        "id": "hotspot-binhdinh",
+        "x_percent": 80.00,
+        "y_percent": 50.00,
+        "location": "Bình Định",
+        "coordinates": "13.9772° N, 109.0000° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, quê hương của anh hùng áo vải Quang Trung.",
+        "detailed_description": "<p><b>Bình Định</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng là quê hương của anh hùng Quang Trung - Nguyễn Huệ và võ cổ truyền. Diện tích: 6.066,4 km², dân số: 1,50 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Quy Nhơn), 2 thị xã (An Nhơn, Hoài Nhơn) và 8 huyện (An Lão, Hoài Ân, Phù Cát, Phù Mỹ, Tây Sơn, Tuy Phước, Vân Canh, Vĩnh Thạnh).</p>"
+    },
+    {
+        "id": "hotspot-binhphuoc",
+        "x_percent": 30.00,
+        "y_percent": 62.00,
+        "location": "Bình Phước",
+        "coordinates": "11.7582° N, 106.8523° E",
+        "description": "Tỉnh Đông Nam Bộ, nổi tiếng với hồ tiêu, cao su và rừng quốc gia.",
+        "detailed_description": "<p><b>Bình Phước</b> là tỉnh thuộc vùng Đông Nam Bộ, nổi tiếng với các sản phẩm nông nghiệp như hồ tiêu, cao su và có nhiều khu rừng tự nhiên, di tích lịch sử. Diện tích: 6.873,56 km², dân số: 1,03 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Đồng Xoài), 3 thị xã (Bình Long, Phước Long, Chơn Thành) và 6 huyện (Bù Đăng, Bù Đốp, Bù Gia Mập, Đồng Phú, Hớn Quản, Lộc Ninh, Phú Riềng).</p>"
+    },
+    {
+        "id": "hotspot-caobang",
+        "x_percent": 37.55,
+        "y_percent": 6.20,
+        "location": "Cao Bằng",
+        "coordinates": "22.6700° N, 106.2700° E",
+        "description": "Tỉnh biên giới phía Bắc, có non nước Cao Bằng hùng vĩ.",
+        "detailed_description": "<p><b>Cao Bằng</b> là tỉnh miền núi biên giới thuộc vùng Đông Bắc Bộ Việt Nam, nổi tiếng với Công viên địa chất non nước Cao Bằng và thác Bản Giốc. Diện tích: 6.700,39 km², dân số: 543,05 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Cao Bằng) và 9 huyện (Bảo Lạc, Bảo Lâm, Hạ Lang, Hà Quảng, Hòa An, Nguyên Bình, Thạch An, Trùng Khánh, Quảng Hòa).</p>"
+    },
+    {
+        "id": "hotspot-daklak",
+        "x_percent": 60.00,
+        "y_percent": 65.00,
+        "location": "Đắk Lắk",
+        "coordinates": "12.6682° N, 108.0494° E",
+        "description": "Tỉnh Tây Nguyên, thủ phủ cà phê của Việt Nam.",
+        "detailed_description": "<p><b>Đắk Lắk</b> là tỉnh lớn nhất Tây Nguyên, được mệnh danh là thủ phủ cà phê của Việt Nam. Tỉnh này có nền văn hóa cồng chiêng đa dạng. Diện tích: 13.070,41 km², dân số: 1,91 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Buôn Ma Thuột), 1 thị xã (Buôn Hồ) và 13 huyện (Cư Kuin, Cư M'gar, Ea H'leo, Ea Kar, Ea Súp, Krông Bông, Krông Năng, Krông Pắc, Krông Ana, Lắk, M'Đrắk, Buôn Đôn, Cư Jút).</p>"
+    },
+    {
+        "id": "hotspot-daknong",
+        "x_percent": 55.00,
+        "y_percent": 68.00,
+        "location": "Đắk Nông",
+        "coordinates": "12.0000° N, 107.7500° E",
+        "description": "Tỉnh Tây Nguyên, có Công viên địa chất toàn cầu Đắk Nông.",
+        "detailed_description": "<p><b>Đắk Nông</b> là tỉnh thuộc Tây Nguyên, nổi tiếng với Công viên địa chất toàn cầu Đắk Nông với hệ thống hang động núi lửa độc đáo. Diện tích: 6.509,27 km², dân số: 670,56 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Gia Nghĩa) và 7 huyện (Cư Jút, Đắk Glong, Đắk Mil, Đắk R'lấp, Đắk Song, Krông Nô, Tuy Đức).</p>"
+    },
+    {
+        "id": "hotspot-dongthap",
+        "x_percent": 20.00,
+        "y_percent": 78.00,
+        "location": "Đồng Tháp",
+        "coordinates": "10.4500° N, 105.7000° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, nổi tiếng với sen và vườn quốc gia Tràm Chim.",
+        "detailed_description": "<p><b>Đồng Tháp</b> là tỉnh thuộc Đồng bằng sông Cửu Long, nổi tiếng với sen, vườn quốc gia Tràm Chim và các làng nghề thủ công truyền thống. Diện tích: 3.382,28 km², dân số: 1,60 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 3 thành phố (Cao Lãnh, Sa Đéc, Hồng Ngự) và 9 huyện (Cao Lãnh, Châu Thành, Lai Vung, Lấp Vò, Tam Nông, Tân Hồng, Thanh Bình, Tháp Mười, Hồng Ngự).</p>"
+    },
+    {
+        "id": "hotspot-hagiang",
+        "x_percent": 26.88,
+        "y_percent": 4.77,
+        "location": "Hà Giang",
+        "coordinates": "22.8200° N, 105.0000° E",
+        "description": "Tỉnh địa đầu Tổ quốc, có Cao nguyên đá Đồng Văn hùng vĩ.",
+        "detailed_description": "<p><b>Hà Giang</b> là tỉnh địa đầu Tổ quốc, thuộc vùng Đông Bắc Bộ, nổi tiếng với Cao nguyên đá Đồng Văn - Công viên địa chất toàn cầu UNESCO. Diện tích: 7.927,55 km², dân số: 892,72 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Hà Giang) và 10 huyện (Bắc Mê, Bắc Quang, Đồng Văn, Hoàng Su Phì, Mèo Vạc, Quản Bạ, Quang Bình, Vị Xuyên, Xín Mần, Yên Minh).</p>"
+    },
+    {
+        "id": "hotspot-hanam",
+        "x_percent": 34.8,
+        "y_percent": 9.8,
+        "location": "Hà Nam",
+        "coordinates": "20.5500° N, 105.9000° E",
+        "description": "Tỉnh Đồng bằng sông Hồng, nổi tiếng với chùa Tam Chúc.",
+        "detailed_description": "<p><b>Hà Nam</b> là tỉnh thuộc Đồng bằng sông Hồng, có nhiều di tích lịch sử, văn hóa và danh thắng như chùa Tam Chúc. Diện tích: 861,93 km², dân số: 878,05 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Phủ Lý) và 5 huyện (Bình Lục, Duy Tiên, Kim Bảng, Lý Nhân, Thanh Liêm).</p>"
+    },
+    {
+        "id": "hotspot-hatinh",
+        "x_percent": 65.00,
+        "y_percent": 40.00,
+        "location": "Hà Tĩnh",
+        "coordinates": "18.3500° N, 105.7000° E",
+        "description": "Tỉnh Bắc Trung Bộ, có Núi Hồng Lĩnh và bãi biển Thiên Cầm.",
+        "detailed_description": "<p><b>Hà Tĩnh</b> là tỉnh thuộc Bắc Trung Bộ, nổi tiếng với Núi Hồng Lĩnh, bãi biển Thiên Cầm và nhiều di tích lịch sử, văn hóa. Diện tích: 5.994,45 km², dân số: 1,31 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Hà Tĩnh), 2 thị xã (Hồng Lĩnh, Kỳ Anh) và 10 huyện (Cẩm Xuyên, Can Lộc, Đức Thọ, Hương Khê, Hương Sơn, Lộc Hà, Nghi Xuân, Thạch Hà, Vũ Quang, Kỳ Anh).</p>"
+    },
+    {
+        "id": "hotspot-haugiang",
+        "x_percent": 22.00,
+        "y_percent": 80.00,
+        "location": "Hậu Giang",
+        "coordinates": "9.7833° N, 105.5000° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, trẻ nhất vùng Tây Nam Bộ.",
+        "detailed_description": "<p><b>Hậu Giang</b> là tỉnh thuộc Đồng bằng sông Cửu Long, được thành lập tương đối muộn và đang trên đà phát triển kinh tế. Diện tích: 1.622,23 km², dân số: 729,47 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Vị Thanh), 2 thị xã (Ngã Bảy, Long Mỹ) và 5 huyện (Châu Thành, Châu Thành A, Phụng Hiệp, Vị Thủy, Long Mỹ).</p>"
+    },
+    {
+        "id": "hotspot-hoabinh",
+        "x_percent": 29.72,
+        "y_percent": 17.89,
+        "location": "Hòa Bình",
+        "coordinates": "20.7300° N, 105.3500° E",
+        "description": "Tỉnh miền núi phía Bắc, có Thủy điện Hòa Bình.",
+        "detailed_description": "<p><b>Hòa Bình</b> là tỉnh miền núi thuộc vùng Tây Bắc Bộ Việt Nam, nổi tiếng với Thủy điện Hòa Bình và văn hóa Mường. Diện tích: 4.590,3 km², dân số: 875,38 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Hòa Bình) và 9 huyện (Cao Phong, Đà Bắc, Kim Bôi, Lạc Sơn, Lạc Thủy, Mai Châu, Tân Lạc, Yên Thủy, Lương Sơn).</p>"
+    },
+    {
+        "id": "hotspot-hungyen",
+        "x_percent": 53.00,
+        "y_percent": 25.00,
+        "location": "Hưng Yên",
+        "coordinates": "20.8700° N, 106.0500° E",
+        "description": "Tỉnh Đồng bằng sông Hồng, nổi tiếng với nhãn lồng.",
+        "detailed_description": "<p><b>Hưng Yên</b> là tỉnh thuộc Đồng bằng sông Hồng, nổi tiếng với đặc sản nhãn lồng Hưng Yên và nhiều di tích lịch sử, văn hóa. Diện tích: 930,2 km², dân số: 1,29 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Hưng Yên), 2 thị xã (Mỹ Hào, Duy Tiên) và 7 huyện (Ân Thi, Khoái Châu, Kim Động, Phù Cừ, Tiên Lữ, Văn Giang, Văn Lâm, Yên Mỹ).</p>"
+    },
+    {
+        "id": "hotspot-laichau",
+        "x_percent": 14.47,
+        "y_percent": 7.69,
+        "location": "Lai Châu",
+        "coordinates": "22.4000° N, 103.2000° E",
+        "description": "Tỉnh cực Tây Bắc của Việt Nam, vùng núi cao hùng vĩ.",
+        "detailed_description": "<p><b>Lai Châu</b> là tỉnh cực Tây Bắc của Việt Nam, có địa hình núi cao phức tạp, khí hậu mát mẻ và nhiều thác nước đẹp. Diện tích: 9.068,73 km², dân số: 482,1 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Lai Châu) và 7 huyện (Mường Tè, Nậm Nhùn, Phong Thổ, Sìn Hồ, Tam Đường, Than Uyên, Tân Uyên).</p>"
+    },
+    {
+        "id": "hotspot-ninhbinh",
+        "x_percent": 34.97,
+        "y_percent": 21.77,
+        "location": "Ninh Bình",
+        "coordinates": "20.2500° N, 105.9000° E",
+        "description": "Tỉnh duyên hải Bắc Bộ, có Quần thể danh thắng Tràng An.",
+        "detailed_description": "<p><b>Ninh Bình</b> là tỉnh thuộc vùng Đồng bằng sông Hồng, nổi tiếng với Quần thể danh thắng Tràng An - Di sản Thế giới được UNESCO công nhận. Diện tích: 1.411,78 km², dân số: 1,01 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Ninh Bình), 2 thị xã (Tam Điệp, Hoa Lư) và 5 huyện (Gia Viễn, Kim Sơn, Nho Quan, Yên Khánh, Yên Mô).</p>"
+    },
+    {
+        "id": "hotspot-ninhthuan",
+        "x_percent": 80.00,
+        "y_percent": 62.00,
+        "location": "Ninh Thuận",
+        "coordinates": "11.6000° N, 108.9500° E",
+        "description": "Tỉnh khô hạn nhất Việt Nam, nổi tiếng với vườn nho và văn hóa Chăm.",
+        "detailed_description": "<p><b>Ninh Thuận</b> là tỉnh duyên hải Nam Trung Bộ, có khí hậu khô hạn đặc trưng, nổi tiếng với các vườn nho, tháp Chăm cổ và bãi biển Vĩnh Hy. Diện tích: 3.355,7 km², dân số: 598,68 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Phan Rang – Tháp Chàm) và 6 huyện (Bác Ái, Ninh Hải, Ninh Phước, Ninh Sơn, Thuận Bắc, Thuận Nam).</p>"
+    },
+    {
+        "id": "hotspot-phutho",
+        "x_percent": 28.97,
+        "y_percent": 14.07,
+        "location": "Phú Thọ",
+        "coordinates": "21.3200° N, 105.2800° E",
+        "description": "Tỉnh trung du miền núi phía Bắc, đất tổ Hùng Vương.",
+        "detailed_description": "<p><b>Phú Thọ</b> là tỉnh thuộc vùng Trung du và miền núi phía Bắc, được biết đến là đất tổ của các Vua Hùng với Khu di tích lịch sử Đền Hùng. Diện tích: 3.534,56 km², dân số: 1,51 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Việt Trì), 1 thị xã (Phú Thọ) và 11 huyện (Cẩm Khê, Đoan Hùng, Hạ Hòa, Lâm Thao, Phù Ninh, Tam Nông, Thanh Ba, Thanh Sơn, Thanh Thủy, Tân Sơn, Yên Lập).</p>"
+    },
+    {
+        "id": "hotspot-phuyen",
+        "x_percent": 82.00,
+        "y_percent": 55.00,
+        "location": "Phú Yên",
+        "coordinates": "13.0800° N, 109.3200° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, nổi tiếng với Gành Đá Đĩa.",
+        "detailed_description": "<p><b>Phú Yên</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng với danh thắng Gành Đá Đĩa độc đáo và bờ biển dài. Diện tích: 5.025,96 km², dân số: 876,62 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Tuy Hòa), 2 thị xã (Sông Cầu, Đông Hòa) và 6 huyện (Đồng Xuân, Phú Hòa, Sơn Hòa, Sông Hinh, Tây Hòa, Tuy An).</p>"
+    },
+    {
+        "id": "hotspot-quangbinh",
+        "x_percent": 68.00,
+        "y_percent": 42.00,
+        "location": "Quảng Bình",
+        "coordinates": "17.4800° N, 106.3500° E",
+        "description": "Tỉnh Bắc Trung Bộ, có Vườn quốc gia Phong Nha - Kẻ Bàng.",
+        "detailed_description": "<p><b>Quảng Bình</b> là tỉnh thuộc Bắc Trung Bộ, nổi tiếng với Vườn quốc gia Phong Nha - Kẻ Bàng - Di sản Thế giới được UNESCO công nhận với nhiều hang động kỳ vĩ. Diện tích: 7.998,76 km², dân số: 913,86 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Đồng Hới), 1 thị xã (Ba Đồn) và 6 huyện (Bố Trạch, Lệ Thủy, Minh Hóa, Quảng Ninh, Quảng Trạch, Tuyên Hóa).</p>"
+    },
+    {
+        "id": "hotspot-quangngai",
+        "x_percent": 80.00,
+        "y_percent": 48.00,
+        "location": "Quảng Ngãi",
+        "coordinates": "15.1100° N, 108.8000° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, có đảo Lý Sơn.",
+        "detailed_description": "<p><b>Quảng Ngãi</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng với khu chứng tích Sơn Mỹ và đảo Lý Sơn - 'đảo thiên đường' với nhiều cảnh đẹp tự nhiên. Diện tích: 5.155,25 km², dân số: 1,24 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Quảng Ngãi) và 12 huyện (Ba Tơ, Bình Sơn, Đức Phổ, Minh Long, Mộ Đức, Nghĩa Hành, Sơn Hà, Sơn Tây, Sơn Tịnh, Tây Trà, Tư Nghĩa, Lý Sơn).</p>"
+    },
+    {
+        "id": "hotspot-quangtri",
+        "x_percent": 72.00,
+        "y_percent": 48.00,
+        "location": "Quảng Trị",
+        "coordinates": "16.7900° N, 107.0300° E",
+        "description": "Tỉnh Bắc Trung Bộ, vùng đất thép trong chiến tranh.",
+        "detailed_description": "<p><b>Quảng Trị</b> là tỉnh thuộc Bắc Trung Bộ, có nhiều di tích lịch sử quan trọng trong chiến tranh Việt Nam như cầu Hiền Lương, địa đạo Vĩnh Mốc. Diện tích: 4.701,23 km², dân số: 649,71 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Đông Hà), 1 thị xã (Quảng Trị) và 8 huyện (Cam Lộ, Cồn Cỏ, Đakrông, Gio Linh, Hải Lăng, Hướng Hóa, Triệu Phong, Vĩnh Linh).</p>"
+    },
+    {
+        "id": "hotspot-soctrang",
+        "x_percent": 20.00,
+        "y_percent": 90.00,
+        "location": "Sóc Trăng",
+        "coordinates": "9.6000° N, 105.9700° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, đa dạng văn hóa Khmer.",
+        "detailed_description": "<p><b>Sóc Trăng</b> là tỉnh thuộc Đồng bằng sông Cửu Long, nơi có nền văn hóa Khmer đặc sắc với nhiều chùa chiền và lễ hội truyền thống. Diện tích: 3.298,2 km², dân số: 1,19 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Sóc Trăng), 2 thị xã (Vĩnh Châu, Ngã Năm) và 8 huyện (Châu Thành, Cù Lao Dung, Kế Sách, Long Phú, Mỹ Tú, Mỹ Xuyên, Thạnh Trị, Trần Đề).</p>"
+    },
+    {
+        "id": "hotspot-sonla",
+        "x_percent": 17.38,
+        "y_percent": 14.43,
+        "location": "Sơn La",
+        "coordinates": "21.3200° N, 104.0000° E",
+        "description": "Tỉnh miền núi Tây Bắc, có Thủy điện Sơn La.",
+        "detailed_description": "<p><b>Sơn La</b> là tỉnh miền núi thuộc vùng Tây Bắc Bộ Việt Nam, nổi tiếng với Thủy điện Sơn La - công trình thủy điện lớn nhất Đông Nam Á. Diện tích: 14.109,83 km², dân số: 1,30 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Sơn La) và 11 huyện (Bắc Yên, Mai Sơn, Mộc Châu, Mường La, Phù Yên, Quỳnh Nhai, Sông Mã, Sốp Cộp, Thuận Châu, Vân Hồ, Yên Châu).</p>"
+    },
+    {
+        "id": "hotspot-tayninh",
+        "x_percent": 25.00,
+        "y_percent": 65.00,
+        "location": "Tây Ninh",
+        "coordinates": "11.3100° N, 106.1000° E",
+        "description": "Tỉnh Đông Nam Bộ, có Núi Bà Đen và Tòa thánh Cao Đài.",
+        "detailed_description": "<p><b>Tây Ninh</b> là tỉnh thuộc Đông Nam Bộ, giáp Campuchia, nổi tiếng với Núi Bà Đen linh thiêng và Tòa thánh Cao Đài Tây Ninh. Diện tích: 4.041,65 km², dân số: 1,18 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Tây Ninh), 3 thị xã (Hòa Thành, Trảng Bàng, Gò Dầu) và 5 huyện (Bến Cầu, Châu Thành, Dương Minh Châu, Tân Biên, Tân Châu).</p>"
+    },
+    {
+        "id": "hotspot-thaibinh",
+        "x_percent": 38.22,
+        "y_percent": 20.39,
+        "location": "Thái Bình",
+        "coordinates": "20.4500° N, 106.3500° E",
+        "description": "Tỉnh Đồng bằng sông Hồng, vùng đất của những cánh đồng lúa và lễ hội truyền thống.",
+        "detailed_description": "<p><b>Thái Bình</b> là tỉnh thuộc Đồng bằng sông Hồng, nổi tiếng với những cánh đồng lúa rộng lớn và các làng nghề truyền thống. Diện tích: 1.584,61 km², dân số: 1,87 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Thái Bình) và 7 huyện (Đông Hưng, Hưng Hà, Kiến Xương, Quỳnh Phụ, Thái Thụy, Tiền Hải, Vũ Thư).</p>"
+    },
+    {
+        "id": "hotspot-thainguyen",
+        "x_percent": 33.63,
+        "y_percent": 12.94,
+        "location": "Thái Nguyên",
+        "coordinates": "21.5800° N, 105.8000° E",
+        "description": "Tỉnh trung du miền núi phía Bắc, trung tâm công nghiệp gang thép.",
+        "detailed_description": "<p><b>Thái Nguyên</b> là tỉnh thuộc vùng Trung du và miền núi phía Bắc, là trung tâm công nghiệp lớn với ngành gang thép. Diện tích: 3.521,97 km², dân số: 1,33 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 3 thành phố (Thái Nguyên, Sông Công, Phổ Yên) và 6 huyện (Đại Từ, Định Hóa, Đồng Hỷ, Phú Bình, Võ Nhai, Phú Lương).</p>"
+    },
+    {
+        "id": "hotspot-tiengiang",
+        "x_percent": 25.00,
+        "y_percent": 82.00,
+        "location": "Tiền Giang",
+        "coordinates": "10.3500° N, 106.3500° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, vựa trái cây của miền Tây.",
+        "detailed_description": "<p><b>Tiền Giang</b> là tỉnh thuộc Đồng bằng sông Cửu Long, được mệnh danh là vựa trái cây lớn của miền Tây Nam Bộ. Diện tích: 2.556,36 km², dân số: 1,78 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Mỹ Tho), 2 thị xã (Gò Công, Cai Lậy) và 8 huyện (Cái Bè, Châu Thành, Chợ Gạo, Gò Công Đông, Gò Công Tây, Tân Phú Đông, Tân Phước, Cai Lậy).</p>"
+    },
+    {
+        "id": "hotspot-travinh",
+        "x_percent": 22.00,
+        "y_percent": 88.00,
+        "location": "Trà Vinh",
+        "coordinates": "9.9333° N, 106.3333° E",
+        "description": "Tỉnh duyên hải Đồng bằng sông Cửu Long, đa dạng văn hóa Khmer.",
+        "detailed_description": "<p><b>Trà Vinh</b> là tỉnh duyên hải thuộc Đồng bằng sông Cửu Long, có nền văn hóa đa dạng với sự giao thoa của ba dân tộc Kinh, Khmer, Hoa. Diện tích: 2.390,77 km², dân số: 1,01 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Trà Vinh) và 8 huyện (Càng Long, Cầu Kè, Cầu Ngang, Châu Thành, Duyên Hải, Tiểu Cần, Trà Cú, Duy Hải).</p>"
+    },
+    {
+        "id": "hotspot-tuyenquang",
+        "x_percent": 28.22,
+        "y_percent": 11.45,
+        "location": "Tuyên Quang",
+        "coordinates": "21.7800° N, 105.2000° E",
+        "description": "Tỉnh miền núi phía Bắc, có nhiều di tích lịch sử cách mạng.",
+        "detailed_description": "<p><b>Tuyên Quang</b> là tỉnh miền núi thuộc vùng Đông Bắc Bộ, được biết đến với nhiều di tích lịch sử cách mạng quan trọng. Diện tích: 5.867,95 km², dân số: 805,78 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Tuyên Quang), 1 thị xã (Na Hang) và 5 huyện (Chiêm Hóa, Hàm Yên, Lâm Bình, Sơn Dương, Yên Sơn).</p>"
+    },
+    {
+        "id": "hotspot-vinhlong",
+        "x_percent": 20.00,
+        "y_percent": 82.00,
+        "location": "Vĩnh Long",
+        "coordinates": "10.2500° N, 105.9600° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, có nhiều vườn cây ăn trái và di tích lịch sử.",
+        "detailed_description": "<p><b>Vĩnh Long</b> là tỉnh thuộc Đồng bằng sông Cửu Long, nổi tiếng với những vườn cây ăn trái, cù lao xanh mát và các di tích lịch sử. Diện tích: 1.525,73 km², dân số: 1,02 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Vĩnh Long), 1 thị xã (Bình Minh) và 6 huyện (Long Hồ, Mang Thít, Tam Bình, Trà Ôn, Vũng Liêm, Vĩnh Thạnh).</p>"
+    },
+    {
+        "id": "hotspot-vinhphuc",
+        "x_percent": 31.63,
+        "y_percent": 14.55,
+        "location": "Vĩnh Phúc",
+        "coordinates": "21.3200° N, 105.6000° E",
+        "description": "Tỉnh Đồng bằng sông Hồng, cửa ngõ thủ đô Hà Nội.",
+        "detailed_description": "<p><b>Vĩnh Phúc</b> là tỉnh thuộc vùng Đồng bằng sông Hồng, nằm ở cửa ngõ phía Bắc của thủ đô Hà Nội, có nền kinh tế phát triển nhanh chóng. Diện tích: 1.236,0 km², dân số: 1,19 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 2 thành phố (Vĩnh Yên, Phúc Yên), 1 thị xã (Bình Xuyên) và 6 huyện (Lập Thạch, Sông Lô, Tam Đảo, Tam Dương, Vĩnh Tường, Yên Lạc).</p>"
+    },
+    {
+        "id": "hotspot-yenbai",
+        "x_percent": 25.88,
+        "y_percent": 11.99,
+        "location": "Yên Bái",
+        "coordinates": "21.6000° N, 104.7000° E",
+        "description": "Tỉnh trung du miền núi phía Bắc, có Mù Cang Chải với ruộng bậc thang.",
+        "detailed_description": "<p><b>Yên Bái</b> là tỉnh thuộc vùng Trung du và miền núi phía Bắc, nổi tiếng với danh thắng ruộng bậc thang Mù Cang Chải hùng vĩ. Diện tích: 6.892,67 km², dân số: 847,25 nghìn người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Yên Bái), 1 thị xã (Nghĩa Lộ) và 7 huyện (Lục Yên, Mù Cang Chải, Trạm Tấu, Trấn Yên, Văn Chấn, Văn Yên, Yên Bình).</p>"
+    },
+    {
+        "id": "hotspot-binhdinh",
+        "x_percent": 75.00,
+        "y_percent": 50.00,
+        "location": "Bình Định",
+        "coordinates": "13.7850° N, 108.9950° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, đất võ trời văn.",
+        "detailed_description": "<p><b>Bình Định</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng với bề dày lịch sử, văn hóa và là vùng đất võ. Diện tích: 6.066,4 km², dân số: 1,50 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Quy Nhơn), 2 thị xã (An Nhơn, Hoài Nhơn) và 8 huyện (An Lão, Hoài Ân, Phù Cát, Phù Mỹ, Tây Sơn, Tuy Phước, Vân Canh, Vĩnh Thạnh).</p>"
+    },
+    {
+        "id": "hotspot-haiduong",
+        "x_percent": 37.88,
+        "y_percent": 17.47,
+        "location": "Hải Dương",
+        "coordinates": "20.9400° N, 106.3200° E",
+        "description": "Tỉnh Đồng bằng sông Hồng, nổi tiếng với bánh đậu xanh và vải thiều.",
+        "detailed_description": "<p><b>Hải Dương</b> là tỉnh thuộc Đồng bằng sông Hồng, nổi tiếng với đặc sản bánh đậu xanh và là tỉnh có nhiều khu công nghiệp. Diện tích: 1.668,28 km², dân số: 1,94 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Hải Dương), 3 thị xã (Chí Linh, Kinh Môn, Bình Giang) và 8 huyện (Cẩm Giàng, Gia Lộc, Kim Thành, Nam Sách, Ninh Giang, Thanh Hà, Tứ Kỳ, Thanh Miện).</p>"
+    },
+    {
+        "id": "hotspot-quangngai",
+        "x_percent": 78.00,
+        "y_percent": 55.00,
+        "location": "Quảng Ngãi",
+        "coordinates": "15.1200° N, 108.8100° E",
+        "description": "Tỉnh duyên hải Nam Trung Bộ, có đảo Lý Sơn.",
+        "detailed_description": "<p><b>Quảng Ngãi</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng với khu chứng tích Sơn Mỹ và đảo Lý Sơn - 'đảo thiên đường' với nhiều cảnh đẹp tự nhiên. Diện tích: 5.155,25 km², dân số: 1,24 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Quảng Ngãi), 1 thị xã (Đức Phổ) và 11 huyện (Ba Tơ, Bình Sơn, Lý Sơn, Minh Long, Mộ Đức, Nghĩa Hành, Sơn Hà, Sơn Tây, Sơn Tịnh, Trà Bồng, Tư Nghĩa).</p>"
+    },
+    {
+        "id": "hotspot-soc-trang",
+        "x_percent": 20.00,
+        "y_percent": 90.00,
+        "location": "Sóc Trăng",
+        "coordinates": "9.6000° N, 105.9700° E",
+        "description": "Tỉnh Đồng bằng sông Cửu Long, đa dạng văn hóa Khmer.",
+        "detailed_description": "<p><b>Sóc Trăng</b> là tỉnh thuộc Đồng bằng sông Cửu Long, nơi có nền văn hóa Khmer đặc sắc với nhiều chùa chiền và lễ hội truyền thống. Diện tích: 3.298,2 km², dân số: 1,19 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Sóc Trăng), 2 thị xã (Vĩnh Châu, Ngã Năm) và 8 huyện (Châu Thành, Cù Lao Dung, Kế Sách, Long Phú, Mỹ Tú, Mỹ Xuyên, Thạnh Trị, Trần Đề).</p>"
     },
     {
         "id": "hotspot-phuquoc",
-        "x_percent": 15,
-        "y_percent": 85,
-        "location": "Đảo Phú Quốc",
-        "coordinates": "10.2030° N, 103.9570° E",
-        "description": "Thiên đường đảo ngọc với vẻ đẹp hoang sơ và ẩm thực đặc sắc.",
-        "detailed_description": "<p><b>Phú Quốc</b> là hòn đảo lớn nhất Việt Nam, nằm ở phía Tây Nam. Đảo nổi tiếng với những bãi biển hoang sơ, làn nước trong xanh và hệ sinh thái đa dạng bao gồm rừng nguyên sinh.</p><p>Du khách có thể khám phá Bãi Sao, Suối Tranh, nhà tù Phú Quốc và thưởng thức đặc sản nước mắm, hải sản tươi sống.</p>"
+        "x_percent": 5.00,
+        "y_percent": 90.00,
+        "location": "Phú Quốc",
+        "coordinates": "10.2000° N, 104.0000° E",
+        "description": "Thành phố đảo lớn nhất Việt Nam, thuộc tỉnh Kiên Giang.",
+        "detailed_description": "<p><b>Phú Quốc</b> là thành phố đảo lớn nhất Việt Nam, thuộc tỉnh Kiên Giang, nổi tiếng với những bãi biển tuyệt đẹp, cảnh quan thiên nhiên hoang sơ và ẩm thực biển phong phú. Diện tích: 589,23 km², dân số: khoảng 179 nghìn người (2020).<br>Các đơn vị hành chính cấp xã: 2 phường (Dương Đông, An Thới) và 7 xã (Bãi Thơm, Cửa Cạn, Cửa Dương, Dương Tơ, Gành Dầu, Hàm Ninh, Thổ Châu).</p>"
     }
 ]

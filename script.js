@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const zoomButton = document.getElementById('zoomButton');
     const coordsDisplay = document.getElementById('coordsDisplay');
     const overlay = document.getElementById('overlay'); // Overlay for when tooltips are pinned
-    const mainTooltip = document.getElementById('mainTooltip'); // First tooltip element
-    const detailedTooltip = document.getElementById('detailedTooltip'); // Second tooltip element
+    const mainTooltip = document.getElementById('mainTooltip'); // First tooltip element (basic info)
+    const detailedTooltip = document.getElementById('detailedTooltip'); // Second tooltip element (detailed info)
 
     let hotspotData = []; // Array to store hotspot data loaded from JSON
     let activeHotspotId = null; // Stores the ID of the currently clicked/pinned hotspot
-    let currentHoverHotspotId = null; // Stores the ID of the hotspot currently being hovered
+    let currentHoverHotspotId = null; // Stores the ID of the hotspot currently being hovered (for hover state management)
 
     // Define available zoom levels in percentage
     const zoomLevels = [30, 50, 100]; 
@@ -22,12 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
      * It cycles through the zoom levels to show what the next click will do.
      */
     function updateZoomButtonText() {
-        // Calculate the index of the next zoom level in the cycle
         const nextZoomLevelIndex = (currentZoomLevelIndex + 1) % zoomLevels.length;
-        const nextZoomPercent = zoomLevels[nextZoomLevelIndex]; // The next zoom percentage
-        const currentZoomPercent = zoomLevels[currentZoomLevelIndex]; // The current zoom percentage
+        const nextZoomPercent = zoomLevels[nextZoomLevelIndex];
+        const currentZoomPercent = zoomLevels[currentZoomLevelIndex];
 
-        // Update button text based on whether current zoom is 100% or not
         if (currentZoomPercent === 100) {
             zoomButton.textContent = `Thu nhỏ về ${nextZoomPercent}%`;
         } else {
@@ -37,13 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Hides both main and detailed tooltips and the overlay.
-     * Resets any active hotspot state.
+     * Resets any active hotspot state. This is the primary function to dismiss tooltips.
      */
     function hideAllTooltips() {
         mainTooltip.classList.remove('visible');
         detailedTooltip.classList.remove('visible');
         overlay.classList.remove('active');
-        activeHotspotId = null; // Clear active hotspot
+        activeHotspotId = null; // Clear the ID of the currently pinned hotspot
     }
 
     /**
@@ -61,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             createHotspots(); // Create hotspots after data is successfully loaded
         } catch (error) {
             console.error('Error loading hotspot data:', error);
-            // Create and append an error message to the image container
+            // Display a user-friendly error message
             const errorMessage = document.createElement('div');
             errorMessage.className = "text-red-600 font-semibold p-4 bg-red-100 rounded-lg mt-4";
             errorMessage.textContent = "Không thể tải dữ liệu điểm nóng. Vui lòng kiểm tra lại file data.json.";
@@ -86,14 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Iterate over each item in the hotspotData array
         hotspotData.forEach(item => {
             // Create a div element to serve as the hotspot group (contains icon)
             const hotspotGroup = document.createElement('div');
-            hotspotGroup.id = item.id; // Assign a unique ID from data
-            // Add a data attribute to store the hotspot ID, useful for event delegation
+            hotspotGroup.id = item.id;
             hotspotGroup.dataset.hotspotId = item.id; 
-            // Apply Tailwind CSS classes for basic styling, positioning, and hover effects
             hotspotGroup.className = `hotspot-group absolute flex items-center justify-center 
                                       cursor-pointer transition-transform duration-200 ease-in-out`;
             hotspotGroup.style.width = '40px'; 
@@ -103,32 +98,29 @@ document.addEventListener('DOMContentLoaded', () => {
             const adjustedX = (item.x_percent / 100) * currentWidth;
             const adjustedY = (item.y_percent / 100) * currentHeight;
 
-            // Apply calculated positions
             hotspotGroup.style.left = `${adjustedX}px`;
             hotspotGroup.style.top = `${adjustedY}px`;
-            // Center the hotspot element precisely on the calculated (x, y) coordinate
             hotspotGroup.style.transform = 'translate(-50%, -50%)';
 
             // Create the dot icon element
             const icon = document.createElement('span');
-            icon.className = "icon"; // Use custom CSS for icon
-            icon.textContent = "•"; // The dot character
+            icon.className = "icon";
+            icon.textContent = "•";
 
-            // Append icon to the hotspot group
             hotspotGroup.appendChild(icon);
-            // Append the complete hotspot group to the image container
             imageContainer.appendChild(hotspotGroup);
 
             // --- Event Listeners for Hotspot ---
 
-            // Mouse over listener for showing the first tooltip (if not pinned)
+            // Mouse over listener: Shows main tooltip on hover, unless another hotspot is pinned.
             hotspotGroup.addEventListener('mouseover', (e) => {
-                currentHoverHotspotId = item.id; // Track which hotspot is currently hovered
-                // If there's an active (pinned) hotspot and it's different from the current one, hide all
+                currentHoverHotspotId = item.id; // Mark this hotspot as currently hovered
+                // If there's an active (pinned) hotspot and it's different from the one being hovered,
+                // then hide all current tooltips (this effectively "unpins" and shows the new hover)
                 if (activeHotspotId && activeHotspotId !== item.id) {
-                    hideAllTooltips();
+                    hideAllTooltips(); 
                 }
-                // If no hotspot is pinned, show the current hotspot's main tooltip
+                // Only show the main tooltip on hover if no hotspot is currently pinned
                 if (!activeHotspotId) {
                     mainTooltip.classList.add('visible');
                     // Populate main tooltip content
@@ -136,43 +128,45 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p class="font-bold text-base mb-1">${item.location}</p>
                         <p class="text-xs text-gray-300 mb-1">Tọa độ: ${item.coordinates}</p>
                         <p>${item.description}</p>
+                        <p class="text-xs text-blue-300 mt-2">Click để ghim</p>
                     `;
+                    // Attach data-hotspot-id to the mainTooltip so its click event knows which hotspot it belongs to
+                    mainTooltip.dataset.activeHotspotId = item.id;
                 }
             });
 
-            // Mouse leave listener for hiding the first tooltip (if not pinned)
+            // Mouse leave listener: Hides main tooltip if nothing is pinned.
             hotspotGroup.addEventListener('mouseleave', () => {
-                currentHoverHotspotId = null; // No hotspot is currently hovered
-                // If no hotspot is active (pinned), hide the main tooltip
+                currentHoverHotspotId = null; // Clear hovered hotspot ID
+                // If no hotspot is currently pinned, hide the main tooltip
                 if (!activeHotspotId) {
                     mainTooltip.classList.remove('visible');
                 }
             });
 
-            // Click listener for pinning the tooltip
+            // Click listener: Pins the tooltip and activates the overlay.
             hotspotGroup.addEventListener('click', (e) => {
-                e.stopPropagation(); // Prevent click from propagating to body
+                e.stopPropagation(); // Stop click from bubbling up to the body/overlay
 
-                // If this hotspot is already pinned, unpin it
+                // If the clicked hotspot is already the active (pinned) one, unpin it.
                 if (activeHotspotId === item.id) {
                     hideAllTooltips();
-                } else { // Clicked a new hotspot or clicked for the first time
-                    hideAllTooltips(); // Hide any previously active tooltips
-                    activeHotspotId = item.id; // Set this hotspot as active
-
+                } else { // If a new hotspot is clicked or nothing was pinned
+                    hideAllTooltips(); // First, hide any existing tooltips/overlay
+                    activeHotspotId = item.id; // Set the new active hotspot
+                    
                     // Show the main tooltip and activate the overlay
                     mainTooltip.classList.add('visible');
                     overlay.classList.add('active');
 
-                    // Populate main tooltip content
+                    // Populate main tooltip content for the pinned state
                     mainTooltip.innerHTML = `
                         <p class="font-bold text-base mb-1">${item.location}</p>
                         <p class="text-xs text-gray-300 mb-1">Tọa độ: ${item.coordinates}</p>
                         <p>${item.description}</p>
                         <p class="text-xs text-blue-300 mt-2">Click để xem chi tiết</p>
                     `;
-                    // Add a data attribute to the mainTooltip itself to link to the active hotspot
-                    mainTooltip.dataset.activeHotspotId = item.id;
+                    mainTooltip.dataset.activeHotspotId = item.id; // Ensure data attribute is set
                 }
             });
         });
@@ -180,27 +174,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Global Event Listeners ---
 
-    // Click listener for the main tooltip to show the detailed tooltip
+    // Click listener for the main tooltip: shows the detailed tooltip.
     mainTooltip.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent click from propagating to body
+        e.stopPropagation(); // Prevent click from propagating to body/overlay
         
+        // Find the data for the currently active hotspot
         const hotspotId = mainTooltip.dataset.activeHotspotId;
         const clickedHotspotData = hotspotData.find(h => h.id === hotspotId);
 
+        // If data exists and has a detailed description, populate and show the detailed tooltip
         if (clickedHotspotData && clickedHotspotData.detailed_description) {
-            // Populate detailed tooltip content
             detailedTooltip.querySelector('h3').textContent = clickedHotspotData.location;
             detailedTooltip.querySelector('p:nth-of-type(1)').textContent = `Tọa độ: ${clickedHotspotData.coordinates}`;
             detailedTooltip.querySelector('p:nth-of-type(2)').innerHTML = clickedHotspotData.detailed_description;
-            detailedTooltip.classList.add('visible'); // Show detailed tooltip
+            detailedTooltip.classList.add('visible');
         } else {
-            console.warn("Detailed description not found or already visible.");
+            console.warn("Detailed description not found for this hotspot or detailed tooltip is already visible.");
         }
     });
 
-    // Click listener on the body to hide all tooltips if clicked outside them
+    // Click listener on the body/overlay to dismiss tooltips when clicking outside
     document.body.addEventListener('click', (e) => {
-        // If there's an active hotspot, and the click target is NOT the main tooltip, detailed tooltip, or any hotspot group
+        // If there's an active (pinned) hotspot and the click target is outside
+        // the main tooltip, detailed tooltip, or any hotspot group.
         if (activeHotspotId && 
             !mainTooltip.contains(e.target) && 
             !detailedTooltip.contains(e.target) &&
@@ -209,7 +205,6 @@ document.addEventListener('DOMContentLoaded', () => {
             hideAllTooltips();
         }
     });
-
 
     /**
      * Handles the click event on the zoom button.
@@ -224,26 +219,23 @@ document.addEventListener('DOMContentLoaded', () => {
         updateZoomButtonText(); // Update button text
         
         // Recalculate hotspots immediately after container size changes
-        setTimeout(() => { // Use setTimeout to ensure the browser has re-rendered the new size
+        // Use a slight delay to ensure the browser has finished rendering the new size
+        setTimeout(() => { 
             createHotspots();
-        }, 550); // Greater than the transition-duration of .image-container in CSS
+        }, 550); 
     });
 
     /**
      * Handles the mousemove event on the map to display real-time coordinates.
      */
     mainMap.addEventListener('mousemove', (event) => {
-        // Get the bounding rectangle of the map image to calculate relative mouse position
         const rect = mainMap.getBoundingClientRect();
-        // Calculate mouse position relative to the top-left of the image
         const x = event.clientX - rect.left;
         const y = event.clientY - rect.top;
 
-        // Get the current rendered width and height of the map image
         const width = mainMap.offsetWidth;
         const height = mainMap.offsetHeight;
 
-        // Calculate percentage coordinates (rounded to 2 decimal places)
         const xPercent = ((x / width) * 100).toFixed(2);
         const yPercent = ((y / height) * 100).toFixed(2);
 
@@ -267,8 +259,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add a small delay to allow the browser to fully render the initial max-width
         // before proceeding to load and create hotspots. This fixes the initial positioning issue.
         setTimeout(() => { 
-            loadHotspotData(); // Load hotspot data and create hotspots
-        }, 100); // A small delay like 100ms should generally be sufficient
+            loadHotspotData(); 
+            // Automatically click the zoom button once after everything is loaded and set up
+            zoomButton.click(); // Added this line
+        }, 100); 
     };
 
     // Handle cases where the image might already be loaded from the browser's cache.
@@ -281,14 +275,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Debounce the resize event to avoid excessive calculations during continuous resizing.
     let resizeTimeout;
     window.addEventListener('resize', () => {
-        clearTimeout(resizeTimeout); // Clear any existing timeout
-        resizeTimeout = setTimeout(() => { // Set a new timeout
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
             console.log('Window resized, adjusting hotspots...');
             createHotspots(); // Recreate hotspots to update their positions based on new window size
             // Re-hide tooltips if resizing occurs while pinned, to prevent layout issues
             if (activeHotspotId) {
                 hideAllTooltips(); 
             }
-        }, 250); // Wait 250ms after resizing stops before executing
+        }, 250);
     });
 });

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "hotspot-hcmc",
+        "x_percent": 25,
+        "y_percent": 60,
+        "location": "Thành phố Hồ Chí Minh",
+        "coordinates": "10.8231° N, 106.6297° E",
+        "description": "Trung tâm kinh tế, văn hóa và du lịch sầm uất nhất Việt Nam.",
+        "detailed_description": "<p><b>Thành phố Hồ Chí Minh</b> (còn gọi là Sài Gòn) là đô thị lớn nhất Việt Nam, là trung tâm kinh tế, văn hóa, giáo dục và khoa học kỹ thuật quan trọng. Thành phố nổi tiếng với kiến trúc Pháp cổ kính, cuộc sống về đêm sôi động và ẩm thực đường phố phong phú.</p><p>Các điểm tham quan nổi bật bao gồm Dinh Độc Lập, Nhà thờ Đức Bà, Bưu điện Trung tâm Sài Gòn và Chợ Bến Thành.</p>"
+    },
+    {
+        "id": "hotspot-hanoi",
+        "x_percent": 50,
+        "y_percent": 20,
+        "location": "Thủ đô Hà Nội",
+        "coordinates": "21.0278° N, 105.8342° E",
+        "description": "Thủ đô ngàn năm văn hiến của Việt Nam.",
+        "detailed_description": "<p><b>Hà Nội</b> là thủ đô của Việt Nam, nổi tiếng với lịch sử lâu đời, kiến trúc cổ kính và nền văn hóa đậm đà bản sắc. Thành phố có nhiều hồ lớn nhỏ, cây xanh rợp bóng và các di tích lịch sử quan trọng.</p><p>Những điểm đến không thể bỏ qua là Hồ Gươm, Phố Cổ, Lăng Chủ tịch Hồ Chí Minh và Văn Miếu - Quốc Tử Giám.</p>"
+    },
+    {
+        "id": "hotspot-danang",
+        "x_percent": 75,
+        "y_percent": 45,
+        "location": "Đà Nẵng",
+        "coordinates": "16.0545° N, 108.2022° E",
+        "description": "Thành phố biển xinh đẹp và hiện đại ở miền Trung.",
+        "detailed_description": "<p><b>Đà Nẵng</b> được mệnh danh là 'thành phố đáng sống' với những bãi biển dài cát trắng như Mỹ Khê, cơ sở hạ tầng hiện đại và các cây cầu độc đáo như Cầu Rồng, Cầu Sông Hàn.</p><p>Từ Đà Nẵng, du khách dễ dàng di chuyển đến các di sản thế giới như Phố cổ Hội An và Thánh địa Mỹ Sơn.</p>"
+    },
+    {
+        "id": "hotspot-phuquoc",
+        "x_percent": 15,
+        "y_percent": 85,
+        "location": "Đảo Phú Quốc",
+        "coordinates": "10.2030° N, 103.9570° E",
+        "description": "Thiên đường đảo ngọc với vẻ đẹp hoang sơ và ẩm thực đặc sắc.",
+        "detailed_description": "<p><b>Phú Quốc</b> là hòn đảo lớn nhất Việt Nam, nằm ở phía Tây Nam. Đảo nổi tiếng với những bãi biển hoang sơ, làn nước trong xanh và hệ sinh thái đa dạng bao gồm rừng nguyên sinh.</p><p>Du khách có thể khám phá Bãi Sao, Suối Tranh, nhà tù Phú Quốc và thưởng thức đặc sản nước mắm, hải sản tươi sống.</p>"
+    }
+]

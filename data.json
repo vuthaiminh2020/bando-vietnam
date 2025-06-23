@@ -8,6 +8,15 @@
         "description": "Thủ đô ngàn năm văn hiến, trung tâm chính trị và văn hóa của Việt Nam.",
         "detailed_description": "<p><b>Hà Nội</b> là thủ đô của Việt Nam, nổi tiếng với lịch sử lâu đời, kiến trúc cổ kính và nền văn hóa đậm đà bản sắc. Thành phố có diện tích khoảng 3.359,84 km² và dân số hơn 8,5 triệu người (2022).</p><p>Về mặt hành chính, Hà Nội có 30 đơn vị hành chính cấp huyện (12 quận, 17 huyện, 1 thị xã) và 579 đơn vị hành chính cấp xã (383 xã, 175 phường, 21 thị trấn). Các đơn vị cấp huyện bao gồm:</p><ul><li><b>Quận:</b> Ba Đình, Bắc Từ Liêm, Cầu Giấy, Đống Đa, Hà Đông, Hai Bà Trưng, Hoàn Kiếm, Hoàng Mai, Long Biên, Nam Từ Liêm, Tây Hồ, Thanh Xuân.</li><li><b>Huyện:</b> Ba Vì, Chương Mỹ, Đan Phượng, Đông Anh, Gia Lâm, Hoài Đức, Mê Linh, Mỹ Đức, Phú Xuyên, Phúc Thọ, Quốc Oai, Sóc Sơn, Thạch Thất, Thanh Oai, Thanh Trì, Thường Tín, Ứng Hòa.</li><li><b>Thị xã:</b> Sơn Tây.</li></ul><p>Các điểm tham quan nổi bật: Hồ Gươm, Phố Cổ, Lăng Chủ tịch Hồ Chí Minh, Văn Miếu - Quốc Tử Giám.</p>"
     },
+	{
+        "id": "hotspot-hanoi2",
+        "x_percent": 33.63,
+        "y_percent": 16.46,
+        "location": "Thủ đô Hà Nội",
+        "coordinates": "21.0278° N, 105.8342° E",
+        "description": "Thủ đô ngàn năm văn hiến, trung tâm chính trị và văn hóa của Việt Nam.",
+        "detailed_description": "<p><b>Hà Nội</b> là thủ đô của Việt Nam, nổi tiếng với lịch sử lâu đời, kiến trúc cổ kính và nền văn hóa đậm đà bản sắc. Thành phố có diện tích khoảng 3.359,84 km² và dân số hơn 8,5 triệu người (2022).</p><p>Về mặt hành chính, Hà Nội có 30 đơn vị hành chính cấp huyện (12 quận, 17 huyện, 1 thị xã) và 579 đơn vị hành chính cấp xã (383 xã, 175 phường, 21 thị trấn). Các đơn vị cấp huyện bao gồm:</p><ul><li><b>Quận:</b> Ba Đình, Bắc Từ Liêm, Cầu Giấy, Đống Đa, Hà Đông, Hai Bà Trưng, Hoàn Kiếm, Hoàng Mai, Long Biên, Nam Từ Liêm, Tây Hồ, Thanh Xuân.</li><li><b>Huyện:</b> Ba Vì, Chương Mỹ, Đan Phượng, Đông Anh, Gia Lâm, Hoài Đức, Mê Linh, Mỹ Đức, Phú Xuyên, Phúc Thọ, Quốc Oai, Sóc Sơn, Thạch Thất, Thanh Oai, Thanh Trì, Thường Tín, Ứng Hòa.</li><li><b>Thị xã:</b> Sơn Tây.</li></ul><p>Các điểm tham quan nổi bật: Hồ Gươm, Phố Cổ, Lăng Chủ tịch Hồ Chí Minh, Văn Miếu - Quốc Tử Giám.</p>"
+    },
     {
         "id": "hotspot-hcmc",
         "x_percent": 40.63,
@@ -594,6 +603,24 @@
         "detailed_description": "<p><b>Quần đảo Trường Sa</b></p> Quần đảo Trường Sa của Việt Nam nằm về phía Nam Biển Đông, ở trong khoảng từ 6 độ 30 phút đến 12 độ vĩ Bắc, 111 đến 117 độ 20 phút độ kinh Đông, cách vịnh Cam Ranh (Khánh Hòa) khoảng 248 hải lý. Đây là quần thể gồm hơn 100 đảo, bãi ngầm, bãi san hô, trải rộng trên vùng biển khoảng 180.000 km2 và án ngữ vùng biển rộng phía Đông Nam nước ta. Căn cứ vào vị trí và khoảng cách giữa các đảo, quần đảo Trường Sa được chia thành tám cụm: Song Tử, Thị Tứ, Loại Ta, Nam Yết, Sinh Tồn, Trường Sa, Thám Hiểm và Bình Nguyên. Trong đó, đảo lớn nhất thuộc Quần đảo Trường Sa là đảo Ba Bình, rộng khoảng 0,6 km2.</p>"
     },
     {
+        "id": "hotspot-truongsa1",
+        "x_percent": 88.89,
+        "y_percent": 90.38,
+        "location": "Trường Sa",
+        "coordinates": "6.50° N, 117.20° E",
+        "description": "Huyện đảo Trường Sa nằm về phía Đông và Đông Nam bờ biển Việt Nam, được thiết lập dựa trên cơ sở là toàn bộ quần đảo Trường Sa thuộc Việt Nam",
+        "detailed_description": "<p><b>Quần đảo Trường Sa</b></p> Quần đảo Trường Sa của Việt Nam nằm về phía Nam Biển Đông, ở trong khoảng từ 6 độ 30 phút đến 12 độ vĩ Bắc, 111 đến 117 độ 20 phút độ kinh Đông, cách vịnh Cam Ranh (Khánh Hòa) khoảng 248 hải lý. Đây là quần thể gồm hơn 100 đảo, bãi ngầm, bãi san hô, trải rộng trên vùng biển khoảng 180.000 km2 và án ngữ vùng biển rộng phía Đông Nam nước ta. Căn cứ vào vị trí và khoảng cách giữa các đảo, quần đảo Trường Sa được chia thành tám cụm: Song Tử, Thị Tứ, Loại Ta, Nam Yết, Sinh Tồn, Trường Sa, Thám Hiểm và Bình Nguyên. Trong đó, đảo lớn nhất thuộc Quần đảo Trường Sa là đảo Ba Bình, rộng khoảng 0,6 km2.</p>"
+    },
+    {
+        "id": "hotspot-truongsa2",
+        "x_percent": 82.22,
+        "y_percent": 97.14,
+        "location": "Trường Sa",
+        "coordinates": "6.50° N, 117.20° E",
+        "description": "Huyện đảo Trường Sa nằm về phía Đông và Đông Nam bờ biển Việt Nam, được thiết lập dựa trên cơ sở là toàn bộ quần đảo Trường Sa thuộc Việt Nam",
+        "detailed_description": "<p><b>Quần đảo Trường Sa</b></p> Quần đảo Trường Sa của Việt Nam nằm về phía Nam Biển Đông, ở trong khoảng từ 6 độ 30 phút đến 12 độ vĩ Bắc, 111 đến 117 độ 20 phút độ kinh Đông, cách vịnh Cam Ranh (Khánh Hòa) khoảng 248 hải lý. Đây là quần thể gồm hơn 100 đảo, bãi ngầm, bãi san hô, trải rộng trên vùng biển khoảng 180.000 km2 và án ngữ vùng biển rộng phía Đông Nam nước ta. Căn cứ vào vị trí và khoảng cách giữa các đảo, quần đảo Trường Sa được chia thành tám cụm: Song Tử, Thị Tứ, Loại Ta, Nam Yết, Sinh Tồn, Trường Sa, Thám Hiểm và Bình Nguyên. Trong đó, đảo lớn nhất thuộc Quần đảo Trường Sa là đảo Ba Bình, rộng khoảng 0,6 km2.</p>"
+    },
+    {
         "id": "hotspot-hoangsa",
         "x_percent": 87.6,
         "y_percent": 44.1,
@@ -601,5 +628,23 @@
         "coordinates": "15.4300° N, 112.5320° E",
         "description": "Quần đảo Hoàng Sa thuộc Việt Nam",
         "detailed_description": "<p><b>Quần đảo Hoàng Sa</b> </p>Quần đảo Hoàng Sa của Việt Nam nằm trong khu vực Bắc Biển Đông, từ khoảng 15 độ 45 phút đến 17 độ 15 phút độ vĩ Bắc, 111 đến 113 độ kinh Đông, cách đảo Lý Sơn (Quảng Ngãi) khoảng 120 hải lý. Đây là một quần thể san hô, gồm 37 đảo, bãi cạn, bãi đá ngầm, cồn san hô, được chia thành hai nhóm đảo.<p>Nhóm đảo phía Đông (hay nhóm An Vĩnh) gồm 12 đảo, bãi cạn; trong đó có hai đảo lớn là Phú Lâm và Linh Côn, mỗi đảo rộng khoảng 1,5 km2.</p><p>Nhóm đảo phía Tây gồm nhiều đảo xếp thành hình vòng cung (còn gọi là nhóm Lưỡi Liềm); trong đó có các đảo Hoàng Sa (diện tích gần 1 km2), Quang Ảnh, Hữu Nhật, Quang Hòa, Duy Mộng, Chim Yến, Tri Tôn, v.v.</p>"
-    }
+    },
+    {
+        "id": "hotspot-hoangsa1",
+        "x_percent": 91.93,
+        "y_percent": 40.41,
+        "location": "Hoàng Sa",
+        "coordinates": "15.4300° N, 112.5320° E",
+        "description": "Quần đảo Hoàng Sa thuộc Việt Nam",
+        "detailed_description": "<p><b>Quần đảo Hoàng Sa</b> </p>Quần đảo Hoàng Sa của Việt Nam nằm trong khu vực Bắc Biển Đông, từ khoảng 15 độ 45 phút đến 17 độ 15 phút độ vĩ Bắc, 111 đến 113 độ kinh Đông, cách đảo Lý Sơn (Quảng Ngãi) khoảng 120 hải lý. Đây là một quần thể san hô, gồm 37 đảo, bãi cạn, bãi đá ngầm, cồn san hô, được chia thành hai nhóm đảo.<p>Nhóm đảo phía Đông (hay nhóm An Vĩnh) gồm 12 đảo, bãi cạn; trong đó có hai đảo lớn là Phú Lâm và Linh Côn, mỗi đảo rộng khoảng 1,5 km2.</p><p>Nhóm đảo phía Tây gồm nhiều đảo xếp thành hình vòng cung (còn gọi là nhóm Lưỡi Liềm); trong đó có các đảo Hoàng Sa (diện tích gần 1 km2), Quang Ảnh, Hữu Nhật, Quang Hòa, Duy Mộng, Chim Yến, Tri Tôn, v.v.</p>"
+    },
+    {
+        "id": "hotspot-hoangsa2",
+        "x_percent": 83.1,
+        "y_percent": 44.93,
+        "location": "Hoàng Sa",
+        "coordinates": "15.4300° N, 112.5320° E",
+        "description": "Quần đảo Hoàng Sa thuộc Việt Nam",
+        "detailed_description": "<p><b>Quần đảo Hoàng Sa</b> </p>Quần đảo Hoàng Sa của Việt Nam nằm trong khu vực Bắc Biển Đông, từ khoảng 15 độ 45 phút đến 17 độ 15 phút độ vĩ Bắc, 111 đến 113 độ kinh Đông, cách đảo Lý Sơn (Quảng Ngãi) khoảng 120 hải lý. Đây là một quần thể san hô, gồm 37 đảo, bãi cạn, bãi đá ngầm, cồn san hô, được chia thành hai nhóm đảo.<p>Nhóm đảo phía Đông (hay nhóm An Vĩnh) gồm 12 đảo, bãi cạn; trong đó có hai đảo lớn là Phú Lâm và Linh Côn, mỗi đảo rộng khoảng 1,5 km2.</p><p>Nhóm đảo phía Tây gồm nhiều đảo xếp thành hình vòng cung (còn gọi là nhóm Lưỡi Liềm); trong đó có các đảo Hoàng Sa (diện tích gần 1 km2), Quang Ảnh, Hữu Nhật, Quang Hòa, Duy Mộng, Chim Yến, Tri Tôn, v.v.</p>"
+    }	
 ]

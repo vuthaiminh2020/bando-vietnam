@@ -583,5 +583,23 @@
         "coordinates": "10.2000° N, 104.0000° E",
         "description": "Thành phố đảo lớn nhất Việt Nam, thuộc tỉnh Kiên Giang.",
         "detailed_description": "<p><b>Phú Quốc</b> là thành phố đảo lớn nhất Việt Nam, thuộc tỉnh Kiên Giang, nổi tiếng với những bãi biển tuyệt đẹp, cảnh quan thiên nhiên hoang sơ và ẩm thực biển phong phú. Diện tích: 589,23 km², dân số: khoảng 179 nghìn người (2020).<br>Các đơn vị hành chính cấp xã: 2 phường (Dương Đông, An Thới) và 7 xã (Bãi Thơm, Cửa Cạn, Cửa Dương, Dương Tơ, Gành Dầu, Hàm Ninh, Thổ Châu).</p>"
+    },
+    {
+        "id": "hotspot-truongsa",
+        "x_percent": 88.06,
+        "y_percent": 94.76,
+        "location": "Trường Sa",
+        "coordinates": "6.50° N, 117.20° E",
+        "description": "Huyện đảo Trường Sa nằm về phía Đông và Đông Nam bờ biển Việt Nam, được thiết lập dựa trên cơ sở là toàn bộ quần đảo Trường Sa thuộc Việt Nam",
+        "detailed_description": "<p><b>Quần đảo Trường Sa</b></p> Quần đảo Trường Sa của Việt Nam nằm về phía Nam Biển Đông, ở trong khoảng từ 6 độ 30 phút đến 12 độ vĩ Bắc, 111 đến 117 độ 20 phút độ kinh Đông, cách vịnh Cam Ranh (Khánh Hòa) khoảng 248 hải lý. Đây là quần thể gồm hơn 100 đảo, bãi ngầm, bãi san hô, trải rộng trên vùng biển khoảng 180.000 km2 và án ngữ vùng biển rộng phía Đông Nam nước ta. Căn cứ vào vị trí và khoảng cách giữa các đảo, quần đảo Trường Sa được chia thành tám cụm: Song Tử, Thị Tứ, Loại Ta, Nam Yết, Sinh Tồn, Trường Sa, Thám Hiểm và Bình Nguyên. Trong đó, đảo lớn nhất thuộc Quần đảo Trường Sa là đảo Ba Bình, rộng khoảng 0,6 km2.</p>"
+    },
+    {
+        "id": "hotspot-hoangsa",
+        "x_percent": 87.6,
+        "y_percent": 44.1,
+        "location": "Hoàng Sa",
+        "coordinates": "15.4300° N, 112.5320° E",
+        "description": "Quần đảo Hoàng Sa thuộc Việt Nam",
+        "detailed_description": "<p><b>Quần đảo Hoàng Sa</b> </p>Quần đảo Hoàng Sa của Việt Nam nằm trong khu vực Bắc Biển Đông, từ khoảng 15 độ 45 phút đến 17 độ 15 phút độ vĩ Bắc, 111 đến 113 độ kinh Đông, cách đảo Lý Sơn (Quảng Ngãi) khoảng 120 hải lý. Đây là một quần thể san hô, gồm 37 đảo, bãi cạn, bãi đá ngầm, cồn san hô, được chia thành hai nhóm đảo.<p>Nhóm đảo phía Đông (hay nhóm An Vĩnh) gồm 12 đảo, bãi cạn; trong đó có hai đảo lớn là Phú Lâm và Linh Côn, mỗi đảo rộng khoảng 1,5 km2.</p><p>Nhóm đảo phía Tây gồm nhiều đảo xếp thành hình vòng cung (còn gọi là nhóm Lưỡi Liềm); trong đó có các đảo Hoàng Sa (diện tích gần 1 km2), Quang Ảnh, Hữu Nhật, Quang Hòa, Duy Mộng, Chim Yến, Tri Tôn, v.v.</p>"
     }
 ]

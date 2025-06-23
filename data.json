@@ -19,8 +19,8 @@
     },
     {
         "id": "hotspot-danang",
-        "x_percent": 75.00,
-        "y_percent": 45.00,
+        "x_percent": 54.1,
+        "y_percent": 49.11,
         "location": "Đà Nẵng",
         "coordinates": "16.0545° N, 108.2022° E",
         "description": "Thành phố biển xinh đẹp, hiện đại và là trung tâm du lịch miền Trung.",
@@ -199,8 +199,8 @@
     },
     {
         "id": "hotspot-kontum",
-        "x_percent": 70.00,
-        "y_percent": 40.00,
+        "x_percent": 52.6,
+        "y_percent": 60.36,
         "location": "Kon Tum",
         "coordinates": "14.3524° N, 107.9796° E",
         "description": "Tỉnh Tây Nguyên, vùng đất của núi rừng và văn hóa bản địa.",
@@ -208,8 +208,8 @@
     },
     {
         "id": "hotspot-gialai",
-        "x_percent": 75.00,
-        "y_percent": 40.00,
+        "x_percent": 52.6,
+        "y_percent": 60.19,
         "location": "Gia Lai",
         "coordinates": "13.9781° N, 108.2000° E",
         "description": "Tỉnh Tây Nguyên, có Biển Hồ và núi lửa Chư Đăng Ya.",
@@ -253,8 +253,8 @@
     },
     {
         "id": "hotspot-bacgiang",
-        "x_percent": 55.00,
-        "y_percent": 22.00,
+        "x_percent": 37.38,
+        "y_percent": 14.97,
         "location": "Bắc Giang",
         "coordinates": "21.2858° N, 106.1888° E",
         "description": "Tỉnh Đông Bắc Bộ, vùng đất của vải thiều Lục Ngạn.",
@@ -262,8 +262,8 @@
     },
     {
         "id": "hotspot-bacninh",
-        "x_percent": 37.38,
-        "y_percent": 14.97,
+        "x_percent": 36.22,
+        "y_percent": 16.16,
         "location": "Bắc Ninh",
         "coordinates": "21.1890° N, 106.0792° E",
         "description": "Tỉnh nhỏ nhất Việt Nam, cái nôi của văn hóa Kinh Bắc.",
@@ -277,15 +277,6 @@
         "coordinates": "10.2333° N, 106.3833° E",
         "description": "Tỉnh Đồng bằng sông Cửu Long, quê hương của dừa và phong trào Đồng Khởi.",
         "detailed_description": "<p><b>Bến Tre</b> là tỉnh thuộc Đồng bằng sông Cửu Long, nổi tiếng với cây dừa và là nơi khởi nguồn của phong trào Đồng Khởi lịch sử. Diện tích: 2.379,7 km², dân số: 1,29 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Bến Tre) và 8 huyện (Ba Tri, Bình Đại, Châu Thành, Chợ Lách, Giồng Trôm, Mỏ Cày Bắc, Mỏ Cày Nam, Thạnh Phú).</p>"
-    },
-    {
-        "id": "hotspot-binhdinh",
-        "x_percent": 80.00,
-        "y_percent": 50.00,
-        "location": "Bình Định",
-        "coordinates": "13.9772° N, 109.0000° E",
-        "description": "Tỉnh duyên hải Nam Trung Bộ, quê hương của anh hùng áo vải Quang Trung.",
-        "detailed_description": "<p><b>Bình Định</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng là quê hương của anh hùng Quang Trung - Nguyễn Huệ và võ cổ truyền. Diện tích: 6.066,4 km², dân số: 1,50 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Quy Nhơn), 2 thị xã (An Nhơn, Hoài Nhơn) và 8 huyện (An Lão, Hoài Ân, Phù Cát, Phù Mỹ, Tây Sơn, Tuy Phước, Vân Canh, Vĩnh Thạnh).</p>"
     },
     {
         "id": "hotspot-binhphuoc",
@@ -379,8 +370,8 @@
     },
     {
         "id": "hotspot-hungyen",
-        "x_percent": 53.00,
-        "y_percent": 25.00,
+        "x_percent": 36.47,
+        "y_percent": 18.48,
         "location": "Hưng Yên",
         "coordinates": "20.8700° N, 106.0500° E",
         "description": "Tỉnh Đồng bằng sông Hồng, nổi tiếng với nhãn lồng.",
@@ -574,15 +565,6 @@
         "coordinates": "20.9400° N, 106.3200° E",
         "description": "Tỉnh Đồng bằng sông Hồng, nổi tiếng với bánh đậu xanh và vải thiều.",
         "detailed_description": "<p><b>Hải Dương</b> là tỉnh thuộc Đồng bằng sông Hồng, nổi tiếng với đặc sản bánh đậu xanh và là tỉnh có nhiều khu công nghiệp. Diện tích: 1.668,28 km², dân số: 1,94 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Hải Dương), 3 thị xã (Chí Linh, Kinh Môn, Bình Giang) và 8 huyện (Cẩm Giàng, Gia Lộc, Kim Thành, Nam Sách, Ninh Giang, Thanh Hà, Tứ Kỳ, Thanh Miện).</p>"
-    },
-    {
-        "id": "hotspot-quangngai",
-        "x_percent": 78.00,
-        "y_percent": 55.00,
-        "location": "Quảng Ngãi",
-        "coordinates": "15.1200° N, 108.8100° E",
-        "description": "Tỉnh duyên hải Nam Trung Bộ, có đảo Lý Sơn.",
-        "detailed_description": "<p><b>Quảng Ngãi</b> là tỉnh duyên hải Nam Trung Bộ, nổi tiếng với khu chứng tích Sơn Mỹ và đảo Lý Sơn - 'đảo thiên đường' với nhiều cảnh đẹp tự nhiên. Diện tích: 5.155,25 km², dân số: 1,24 triệu người (2022).<br>Các đơn vị hành chính cấp huyện: 1 thành phố (Quảng Ngãi), 1 thị xã (Đức Phổ) và 11 huyện (Ba Tơ, Bình Sơn, Lý Sơn, Minh Long, Mộ Đức, Nghĩa Hành, Sơn Hà, Sơn Tây, Sơn Tịnh, Trà Bồng, Tư Nghĩa).</p>"
     },
     {
         "id": "hotspot-soc-trang",

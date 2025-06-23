@@ -166,7 +166,17 @@
 <body class="p-4 bg-gray-100 flex flex-col items-center justify-center min-h-screen">
 
     <div class="container-wrapper">
-        <!-- Controls section: Zoom button and coordinate display -->
+      
+
+        <!-- Main image container -->
+        <div class="image-container">
+            <!-- The main map image -->
+            <img id="mainMap" src="map.jpg" 
+                 alt="Bản đồ tương tác với các điểm thông tin" class="rounded-xl">
+
+            <!-- Hotspots will be dynamically added here by JavaScript -->
+        </div>
+          <!-- Controls section: Zoom button and coordinate display -->
         <div class="flex flex-col md:flex-row justify-between items-center w-full mb-4 space-y-2 md:space-y-0 md:space-x-4">
             <button id="zoomButton" class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md 
                                          hover:bg-blue-700 transition-colors duration-200 ease-in-out w-full md:w-auto">
@@ -177,15 +187,6 @@
                 <!-- Coordinate display area -->
                 Di chuyển chuột trên bản đồ để lấy tọa độ
             </div>
-        </div>
-
-        <!-- Main image container -->
-        <div class="image-container">
-            <!-- The main map image -->
-            <img id="mainMap" src="map.jpg" 
-                 alt="Bản đồ tương tác với các điểm thông tin" class="rounded-xl">
-
-            <!-- Hotspots will be dynamically added here by JavaScript -->
         </div>
     </div>
 

@@ -646,5 +646,14 @@
         "coordinates": "15.4300° N, 112.5320° E",
         "description": "Quần đảo Hoàng Sa thuộc Việt Nam",
         "detailed_description": "<p><b>Quần đảo Hoàng Sa</b> </p>Quần đảo Hoàng Sa của Việt Nam nằm trong khu vực Bắc Biển Đông, từ khoảng 15 độ 45 phút đến 17 độ 15 phút độ vĩ Bắc, 111 đến 113 độ kinh Đông, cách đảo Lý Sơn (Quảng Ngãi) khoảng 120 hải lý. Đây là một quần thể san hô, gồm 37 đảo, bãi cạn, bãi đá ngầm, cồn san hô, được chia thành hai nhóm đảo.<p>Nhóm đảo phía Đông (hay nhóm An Vĩnh) gồm 12 đảo, bãi cạn; trong đó có hai đảo lớn là Phú Lâm và Linh Côn, mỗi đảo rộng khoảng 1,5 km2.</p><p>Nhóm đảo phía Tây gồm nhiều đảo xếp thành hình vòng cung (còn gọi là nhóm Lưỡi Liềm); trong đó có các đảo Hoàng Sa (diện tích gần 1 km2), Quang Ảnh, Hữu Nhật, Quang Hòa, Duy Mộng, Chim Yến, Tri Tôn, v.v.</p>"
-    }	
+    },
+    {
+        "id": "hotspot-vuminh",
+        "x_percent": 6.39,
+        "y_percent": 97.14,
+        "location": "VŨ THÁI MINH",
+        "coordinates": "15.4300° N, 112.5320° E",
+        "description": "Bản Đồ 63 tỉnh thành Việt Nam",
+        "detailed_description": "<p><b>Bản Đồ 63 tỉnh thành Việt Nam</b> </p>Đây là nơi tôi lưu lại tên, thông tin của 63 tỉnh thành của Việt Nam làm kỉ niệm trước thời điểm sát nhập 01/07/2025</p>"
+    }		
 ]
